@@ -8,9 +8,9 @@ $note_list = mysqli_fetch_all($result, MYSQLI_ASSOC);
 session_start();
 // $user = $_SESSION["user"];
 
-$user = 111;
+$user = $_SESSION['email'];
 foreach($note_list as $note){
-    if($user == $note['reg']){
+    if($user == $note['email']){
         echo '<div class="row">
           <button class="note-items container px-5">
             <h5>'.$note['note_header'].'</h5>

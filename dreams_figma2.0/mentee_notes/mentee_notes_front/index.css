@@ -53,16 +53,3 @@ span {
   color: white;
   background-color: #1c7730;
 }
-@media screen and  (max-width: 600px){
-  .title{
-    float: left;
-    font-size: 32px;
-}
-.logout{
-    position: unset;
-    font-size: 20px;
-    float: right;
-    padding-top: 100px;
-    padding-right: 15px;
-}
-}
