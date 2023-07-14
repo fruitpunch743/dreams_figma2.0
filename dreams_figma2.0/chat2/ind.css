@@ -1,0 +1,26 @@
+* {
+    font-family: "Montserrat";
+  }
+  .header {
+    width: 100%;
+    margin-right: 0px;
+    height: 140px;
+    background-color: #1c7730;
+  }
+  .title {
+    float: left;
+    color: white;
+    font-size: 64px;
+  }
+  img {
+    float: left;
+  }
+  .logout button{
+    float: right;
+    background-color: transparent;
+    border: 5px solid transparent;
+    padding-top: 50px;
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
+  }
+  

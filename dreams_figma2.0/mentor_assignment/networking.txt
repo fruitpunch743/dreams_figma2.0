@@ -1,0 +1,889 @@
+Microsoft Windows [Version 10.0.22621.1928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>hostname
+Jesten
+
+C:\Windows\System32>systeminfo
+
+Host Name:                 JESTEN
+OS Name:                   Microsoft Windows 11 Home
+OS Version:                10.0.22621 N/A Build 22621
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          JESTEN
+Registered Organization:   N/A
+Product ID:                00326-10000-00000-AA062
+Original Install Date:     10/6/2022, 7:06:47 PM
+System Boot Time:          7/8/2023, 11:49:01 AM
+System Manufacturer:       Dell Inc.
+System Model:              Inspiron 5593
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 126 Stepping 5 GenuineIntel ~1298 Mhz
+BIOS Version:              Dell Inc. 1.26.0, 3/13/2023
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume3
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+Total Physical Memory:     16,151 MB
+Available Physical Memory: 8,832 MB
+Virtual Memory: Max Size:  19,449 MB
+Virtual Memory: Available: 7,812 MB
+Virtual Memory: In Use:    11,637 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\JESTEN
+Hotfix(s):                 4 Hotfix(s) Installed.
+                           [01]: KB5027119
+                           [02]: KB5012170
+                           [03]: KB5027303
+                           [04]: KB5027668
+Network Card(s):           5 NIC(s) Installed.
+                           [01]: TAP-Windows Adapter V9
+                                 Connection Name: Ethernet 4
+                                 Status:          Media disconnected
+                           [02]: Realtek PCIe FE Family Controller
+                                 Connection Name: Ethernet 2
+                                 Status:          Media disconnected
+                           [03]: Qualcomm QCA9377 802.11ac Wireless Adapter
+                                 Connection Name: Wi-Fi
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     172.16.32.10
+                                 IP address(es)
+                                 [01]: 172.16.208.122
+                                 [02]: fe80::652f:d00c:b136:665d
+                           [04]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection
+                                 Status:          Media disconnected
+                           [05]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: Ethernet 3
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.56.1
+                                 [02]: fe80::302b:d1ee:9a3b:95a4
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+C:\Windows\System32>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter Ethernet 3:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::302b:d1ee:9a3b:95a4%12
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter Ethernet 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::652f:d00c:b136:665d%11
+   IPv4 Address. . . . . . . . . . . : 172.16.208.122
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 172.16.208.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+C:\Windows\System32>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>rundll32.exe keymgr. dll
+
+C:\Windows\System32>: rundll32.exe keymgr.dll, KRShowKeyMgr
+C:\Windows\System32>:rundll32.exe keymgr.dll, KRShowKeyMgr
+C:\Windows\System32>ipconfig/all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Jesten
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe FE Family Controller #2
+   Physical Address. . . . . . . . . : 30-D0-42-03-84-8E
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet 3:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-0C
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::302b:d1ee:9a3b:95a4%12(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 906625063
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-62-43-1A-30-D0-42-03-84-8E
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #3
+   Physical Address. . . . . . . . . : 42-23-43-AA-D6-1F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #4
+   Physical Address. . . . . . . . . : 52-23-43-AA-D6-1F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet 4:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : TAP-Windows Adapter V9
+   Physical Address. . . . . . . . . : 00-FF-70-F2-5C-AA
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::40f0:4a45:329f:8e6b%9(Preferred)
+   IPv4 Address. . . . . . . . . . . : 100.127.255.253(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.252
+   Lease Obtained. . . . . . . . . . : Wednesday, July 12, 2023 11:42:16 AM
+   Lease Expires . . . . . . . . . . : Thursday, July 11, 2024 11:42:15 AM
+   Default Gateway . . . . . . . . . :
+   DHCP Server . . . . . . . . . . . : 100.127.255.254
+   DHCPv6 IAID . . . . . . . . . . . : 151060336
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-62-43-1A-30-D0-42-03-84-8E
+   DNS Servers . . . . . . . . . . . : 8.8.8.8
+   NetBIOS over Tcpip. . . . . . . . : Disabled
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Qualcomm QCA9377 802.11ac Wireless Adapter
+   Physical Address. . . . . . . . . : 40-23-43-AA-D6-1F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::652f:d00c:b136:665d%11(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.16.208.122(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Lease Obtained. . . . . . . . . . : Wednesday, July 12, 2023 11:04:28 AM
+   Lease Expires . . . . . . . . . . : Thursday, July 13, 2023 11:05:29 AM
+   Default Gateway . . . . . . . . . : 172.16.208.1
+   DHCP Server . . . . . . . . . . . : 172.16.32.10
+   DHCPv6 IAID . . . . . . . . . . . : 54534979
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-62-43-1A-30-D0-42-03-84-8E
+   DNS Servers . . . . . . . . . . . : 172.16.32.211
+                                       4.2.2.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 40-23-43-AA-D6-20
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+C:\Windows\System32>ipconfig/r
+
+Error: unrecognized or incomplete command line.
+
+USAGE:
+    ipconfig [/allcompartments] [/? | /all |
+                                 /renew [adapter] | /release [adapter] |
+                                 /renew6 [adapter] | /release6 [adapter] |
+                                 /flushdns | /displaydns | /registerdns |
+                                 /showclassid adapter |
+                                 /setclassid adapter [classid] |
+                                 /showclassid6 adapter |
+                                 /setclassid6 adapter [classid] ]
+
+where
+    adapter             Connection name
+                       (wildcard characters * and ? allowed, see examples)
+
+    Options:
+       /?               Display this help message
+       /all             Display full configuration information.
+       /release         Release the IPv4 address for the specified adapter.
+       /release6        Release the IPv6 address for the specified adapter.
+       /renew           Renew the IPv4 address for the specified adapter.
+       /renew6          Renew the IPv6 address for the specified adapter.
+       /flushdns        Purges the DNS Resolver cache.
+       /registerdns     Refreshes all DHCP leases and re-registers DNS names
+       /displaydns      Display the contents of the DNS Resolver Cache.
+       /showclassid     Displays all the dhcp class IDs allowed for adapter.
+       /setclassid      Modifies the dhcp class id.
+       /showclassid6    Displays all the IPv6 DHCP class IDs allowed for adapter.
+       /setclassid6     Modifies the IPv6 DHCP class id.
+
+
+The default is to display only the IP address, subnet mask and
+default gateway for each adapter bound to TCP/IP.
+
+For Release and Renew, if no adapter name is specified, then the IP address
+leases for all adapters bound to TCP/IP will be released or renewed.
+
+For Setclassid and Setclassid6, if no ClassId is specified, then the ClassId is removed.
+
+Examples:
+    > ipconfig                       ... Show information
+    > ipconfig /all                  ... Show detailed information
+    > ipconfig /renew                ... renew all adapters
+    > ipconfig /renew EL*            ... renew any connection that has its
+                                         name starting with EL
+    > ipconfig /release *Con*        ... release all matching connections,
+                                         eg. "Wired Ethernet Connection 1" or
+                                             "Wired Ethernet Connection 2"
+    > ipconfig /allcompartments      ... Show information about all
+                                         compartments
+    > ipconfig /allcompartments /all ... Show detailed information about all
+                                         compartments
+
+C:\Windows\System32>ipconfig/new
+
+Error: unrecognized or incomplete command line.
+
+USAGE:
+    ipconfig [/allcompartments] [/? | /all |
+                                 /renew [adapter] | /release [adapter] |
+                                 /renew6 [adapter] | /release6 [adapter] |
+                                 /flushdns | /displaydns | /registerdns |
+                                 /showclassid adapter |
+                                 /setclassid adapter [classid] |
+                                 /showclassid6 adapter |
+                                 /setclassid6 adapter [classid] ]
+
+where
+    adapter             Connection name
+                       (wildcard characters * and ? allowed, see examples)
+
+    Options:
+       /?               Display this help message
+       /all             Display full configuration information.
+       /release         Release the IPv4 address for the specified adapter.
+       /release6        Release the IPv6 address for the specified adapter.
+       /renew           Renew the IPv4 address for the specified adapter.
+       /renew6          Renew the IPv6 address for the specified adapter.
+       /flushdns        Purges the DNS Resolver cache.
+       /registerdns     Refreshes all DHCP leases and re-registers DNS names
+       /displaydns      Display the contents of the DNS Resolver Cache.
+       /showclassid     Displays all the dhcp class IDs allowed for adapter.
+       /setclassid      Modifies the dhcp class id.
+       /showclassid6    Displays all the IPv6 DHCP class IDs allowed for adapter.
+       /setclassid6     Modifies the IPv6 DHCP class id.
+
+
+The default is to display only the IP address, subnet mask and
+default gateway for each adapter bound to TCP/IP.
+
+For Release and Renew, if no adapter name is specified, then the IP address
+leases for all adapters bound to TCP/IP will be released or renewed.
+
+For Setclassid and Setclassid6, if no ClassId is specified, then the ClassId is removed.
+
+Examples:
+    > ipconfig                       ... Show information
+    > ipconfig /all                  ... Show detailed information
+    > ipconfig /renew                ... renew all adapters
+    > ipconfig /renew EL*            ... renew any connection that has its
+                                         name starting with EL
+    > ipconfig /release *Con*        ... release all matching connections,
+                                         eg. "Wired Ethernet Connection 1" or
+                                             "Wired Ethernet Connection 2"
+    > ipconfig /allcompartments      ... Show information about all
+                                         compartments
+    > ipconfig /allcompartments /all ... Show detailed information about all
+                                         compartments
+
+C:\Windows\System32>ping[www.google.com]
+'ping[www.google.com]' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>ping[google.com]
+'ping[google.com]' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>ping [google.com]
+Ping request could not find host [google.com]. Please check the name and try again.
+
+C:\Windows\System32>ping [www.google.com]
+Ping request could not find host [www.google.com]. Please check the name and try again.
+
+C:\Windows\System32>ping [https://christuniversity.in/]
+Ping request could not find host [https://christuniversity.in/]. Please check the name and try again.
+
+C:\Windows\System32>ping www.google.com
+
+Pinging www.google.com [142.251.40.100] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 142.251.40.100:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\Windows\System32>
+C:\Windows\System32>ping 172.16.208.122
+
+Pinging 172.16.208.122 with 32 bytes of data:
+Reply from 172.16.208.122: bytes=32 time<1ms TTL=64
+Reply from 172.16.208.122: bytes=32 time<1ms TTL=64
+Reply from 172.16.208.122: bytes=32 time<1ms TTL=64
+Reply from 172.16.208.122: bytes=32 time<1ms TTL=64
+
+Ping statistics for 172.16.208.122:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Windows\System32>ping 172.16.212.211
+
+Pinging 172.16.212.211 with 32 bytes of data:
+Reply from 172.16.208.122: Destination host unreachable.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.16.212.211:
+    Packets: Sent = 4, Received = 1, Lost = 3 (75% loss),
+
+C:\Windows\System32>ping 172.16.212.211
+
+Pinging 172.16.212.211 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.16.212.211:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\Windows\System32>ping 172.16.208.122
+
+Pinging 172.16.208.122 with 32 bytes of data:
+Reply from 172.16.208.122: bytes=32 time<1ms TTL=64
+Reply from 172.16.208.122: bytes=32 time<1ms TTL=64
+Reply from 172.16.208.122: bytes=32 time<1ms TTL=64
+Reply from 172.16.208.122: bytes=32 time<1ms TTL=64
+
+Ping statistics for 172.16.208.122:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Windows\System32>ping 172.16.212.211
+
+Pinging 172.16.212.211 with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 172.16.212.211:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\Windows\System32>ping www.google.com
+
+Pinging www.google.com [142.251.40.100] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 142.251.40.100:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+C:\Windows\System32>ping https://courses.christuniversity.in/login/index.php
+Ping request could not find host https://courses.christuniversity.in/login/index.php. Please check the name and try again.
+
+C:\Windows\System32>pdc.cuke.local
+'pdc.cuke.local' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>nslookup
+Default Server:  pdc.cuke.local
+Address:  172.16.32.211
+
+>
+> nslookup www.gooogle.com
+Server:  www.gooogle.com
+Addresses:  2404:6800:4009:82b::2003
+          142.251.42.99
+
+*** www.gooogle.com can't find nslookup: No response from server
+> exit
+
+C:\Windows\System32>nslookup www.google.com
+Server:  pdc.cuke.local
+Address:  172.16.32.211
+
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2404:6800:4009:823::2004
+          142.250.192.132
+
+
+C:\Windows\System32>traceroute
+'traceroute' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+C:\Windows\System32>tracert 172.16.32.211
+
+Tracing route to pdc.cuke.local [172.16.32.211]
+over a maximum of 30 hops:
+
+  1     4 ms     2 ms     3 ms  172.16.208.1
+  2     5 ms     5 ms     3 ms  pdc.cuke.local [172.16.32.211]
+
+Trace complete.
+
+C:\Windows\System32>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+C:\Windows\System32>-4
+'-4' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>tracert -4
+A target name or address must be specified.
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+C:\Windows\System32>nbtstat
+
+Displays protocol statistics and current TCP/IP connections using NBT
+(NetBIOS over TCP/IP).
+
+NBTSTAT [ [-a RemoteName] [-A IP address] [-c] [-n]
+        [-r] [-R] [-RR] [-s] [-S] [interval] ]
+
+  -a   (adapter status) Lists the remote machine's name table given its name
+  -A   (Adapter status) Lists the remote machine's name table given its
+                        IP address.
+  -c   (cache)          Lists NBT's cache of remote [machine] names and their IP addresses
+  -n   (names)          Lists local NetBIOS names.
+  -r   (resolved)       Lists names resolved by broadcast and via WINS
+  -R   (Reload)         Purges and reloads the remote cache name table
+  -S   (Sessions)       Lists sessions table with the destination IP addresses
+  -s   (sessions)       Lists sessions table converting destination IP
+                        addresses to computer NETBIOS names.
+  -RR  (ReleaseRefresh) Sends Name Release packets to WINS and then, starts Refresh
+
+  RemoteName   Remote host machine name.
+  IP address   Dotted decimal representation of the IP address.
+  interval     Redisplays selected statistics, pausing interval seconds
+               between each display. Press Ctrl+C to stop redisplaying
+               statistics.
+
+
+C:\Windows\System32>tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      6,552 K
+Registry                       144 Services                   0     36,068 K
+smss.exe                       572 Services                   0        504 K
+csrss.exe                      848 Services                   0      3,960 K
+wininit.exe                    896 Services                   0      4,472 K
+services.exe                   652 Services                   0      8,908 K
+lsass.exe                     1040 Services                   0     21,796 K
+svchost.exe                   1164 Services                   0     29,904 K
+fontdrvhost.exe               1192 Services                   0      2,052 K
+WUDFHost.exe                  1292 Services                   0      4,212 K
+svchost.exe                   1412 Services                   0     16,000 K
+svchost.exe                   1472 Services                   0      6,772 K
+WUDFHost.exe                  1508 Services                   0     13,844 K
+svchost.exe                   1784 Services                   0      3,700 K
+svchost.exe                   1888 Services                   0      4,872 K
+svchost.exe                   1896 Services                   0      9,128 K
+svchost.exe                   1904 Services                   0     10,948 K
+svchost.exe                   1996 Services                   0     12,044 K
+svchost.exe                   1104 Services                   0      6,644 K
+svchost.exe                   1064 Services                   0      7,396 K
+svchost.exe                   1068 Services                   0      6,820 K
+IntelCpHDCPSvc.exe            2120 Services                   0      3,020 K
+svchost.exe                   2128 Services                   0      9,520 K
+svchost.exe                   2136 Services                   0      5,732 K
+svchost.exe                   2212 Services                   0      3,092 K
+svchost.exe                   2220 Services                   0      8,944 K
+svchost.exe                   2264 Services                   0      5,560 K
+svchost.exe                   2352 Services                   0      3,912 K
+svchost.exe                   2380 Services                   0     25,444 K
+svchost.exe                   2620 Services                   0      6,296 K
+svchost.exe                   2700 Services                   0     10,244 K
+svchost.exe                   2740 Services                   0      7,812 K
+igfxCUIServiceN.exe           2904 Services                   0      7,112 K
+svchost.exe                   3016 Services                   0      7,864 K
+NVDisplay.Container.exe       3060 Services                   0     13,388 K
+svchost.exe                   2060 Services                   0      4,604 K
+svchost.exe                   3112 Services                   0     17,004 K
+svchost.exe                   3212 Services                   0      5,684 K
+svchost.exe                   3244 Services                   0      8,616 K
+svchost.exe                   3252 Services                   0      2,656 K
+svchost.exe                   3320 Services                   0      5,792 K
+svchost.exe                   3332 Services                   0      7,516 K
+Memory Compression            3348 Services                   0    402,868 K
+svchost.exe                   3424 Services                   0      5,056 K
+svchost.exe                   3476 Services                   0      5,644 K
+svchost.exe                   3644 Services                   0     21,980 K
+svchost.exe                   3708 Services                   0     18,780 K
+svchost.exe                   3744 Services                   0     13,388 K
+svchost.exe                   3772 Services                   0      4,192 K
+svchost.exe                   3840 Services                   0      3,868 K
+svchost.exe                   3852 Services                   0      7,292 K
+svchost.exe                   4024 Services                   0     14,448 K
+svchost.exe                   4092 Services                   0      8,156 K
+spoolsv.exe                   4152 Services                   0      9,240 K
+svchost.exe                   4212 Services                   0     18,048 K
+svchost.exe                   4248 Services                   0      3,852 K
+svchost.exe                   4676 Services                   0      5,744 K
+AdminService.exe              4696 Services                   0      4,704 K
+burpsuiteenterpriseeditio     4704 Services                   0      2,124 K
+mDNSResponder.exe             4720 Services                   0      4,800 K
+burpsuiteenterpriseeditio     4752 Services                   0      2,136 K
+burpsuiteenterpriseeditio     4804 Services                   0      2,128 K
+svchost.exe                   4812 Services                   0     11,884 K
+burpsuiteenterpriseeditio     4820 Services                   0      2,244 K
+svchost.exe                   4860 Services                   0      5,628 K
+svchost.exe                   4868 Services                   0     34,200 K
+svchost.exe                   4884 Services                   0     37,680 K
+DriverUpdSvc.exe              4896 Services                   0     35,052 K
+FNPLicensingService64.exe     5000 Services                   0      4,516 K
+esif_uf.exe                   5040 Services                   0      4,168 K
+HPPrintScanDoctorService.     5068 Services                   0      8,164 K
+burpsuiteenterpriseeditio     5080 Services                   0     88,176 K
+OneApp.IGCC.WinService.ex     5096 Services                   0     21,008 K
+svchost.exe                   5104 Services                   0      4,292 K
+FNPLicensingService.exe       4620 Services                   0      4,428 K
+svchost.exe                   5248 Services                   0      7,616 K
+burpsuiteenterpriseeditio     5272 Services                   0     91,084 K
+LMS.exe                       5292 Services                   0      4,552 K
+svchost.exe                   5300 Services                   0      5,100 K
+mongod.exe                    5308 Services                   0     23,468 K
+sqlservr.exe                  5372 Services                   0     56,036 K
+sqlservr.exe                  5504 Services                   0     56,336 K
+burpsuiteenterpriseeditio     5532 Services                   0     86,008 K
+nvcontainer.exe               5552 Services                   0     25,228 K
+TNSLSNR.EXE                   5560 Services                   0      5,388 K
+oracle.exe                    5568 Services                   0    101,124 K
+QcomWlanSrvx64.exe            5584 Services                   0      3,012 K
+svchost.exe                   5640 Services                   0      4,424 K
+svchost.exe                   5676 Services                   0      2,440 K
+RstMwService.exe              5804 Services                   0      6,364 K
+SessionService.exe            5824 Services                   0      1,528 K
+RtkAudUService64.exe          5832 Services                   0      8,024 K
+VpnSvc.exe                    5840 Services                   0     34,644 K
+SmartByteNetworkService.e     5900 Services                   0     33,092 K
+burpsuiteenterpriseeditio     5920 Services                   0     95,944 K
+svchost.exe                   5936 Services                   0      3,696 K
+sqlwriter.exe                 5960 Services                   0      7,620 K
+sqlbrowser.exe                5972 Services                   0      1,716 K
+SmartByteAnalyticsService     6036 Services                   0      2,820 K
+svchost.exe                   6068 Services                   0      3,764 K
+svchost.exe                   6084 Services                   0      4,344 K
+svchost.exe                   6116 Services                   0      4,320 K
+WavesSysSvc64.exe             6124 Services                   0     15,296 K
+nessus-service.exe            6132 Services                   0      2,284 K
+MsMpEng.exe                   5124 Services                   0    230,268 K
+jhi_service.exe               6204 Services                   0      2,500 K
+WMIRegistrationService.ex     6216 Services                   0      3,676 K
+svchost.exe                   6256 Services                   0     17,324 K
+nessusd.exe                   7160 Services                   0     89,284 K
+lmgrd.exe                     7204 Services                   0      2,528 K
+svchost.exe                   7340 Services                   0      8,100 K
+conhost.exe                   7660 Services                   0      3,408 K
+lmgrd.exe                     8024 Services                   0      3,844 K
+RAPSService.exe               8112 Services                   0      5,552 K
+AggregatorHost.exe            8120 Services                   0      6,132 K
+RAPS.exe                      8276 Services                   0     12,640 K
+WmiPrvSE.exe                  8308 Services                   0     64,908 K
+conhost.exe                   8372 Services                   0      3,440 K
+svchost.exe                  10412 Services                   0      4,672 K
+svchost.exe                   9976 Services                   0     16,692 K
+NisSrv.exe                    9692 Services                   0      6,256 K
+svchost.exe                   2836 Services                   0      8,640 K
+PresentationFontCache.exe     9924 Services                   0      5,868 K
+svchost.exe                  10960 Services                   0     13,804 K
+svchost.exe                  11688 Services                   0     16,944 K
+svchost.exe                  11888 Services                   0      3,496 K
+svchost.exe                  12084 Services                   0      9,156 K
+svchost.exe                  13016 Services                   0     14,328 K
+GoogleCrashHandler.exe       12312 Services                   0      1,684 K
+GoogleCrashHandler64.exe      2252 Services                   0      1,052 K
+BraveCrashHandler.exe         2924 Services                   0      1,764 K
+svchost.exe                   2892 Services                   0      4,664 K
+BraveCrashHandler64.exe       4076 Services                   0      1,040 K
+svchost.exe                   4380 Services                   0      7,980 K
+SearchIndexer.exe            15036 Services                   0     71,588 K
+svchost.exe                  16188 Services                   0      9,984 K
+svchost.exe                  12248 Services                   0     17,268 K
+DDVRulesProcessor.exe         6620 Services                   0     10,172 K
+Dell.D3.WinSvc.exe           13892 Services                   0     48,808 K
+DellSupportAssistRemedati    13412 Services                   0     37,524 K
+ServiceShell.exe             13012 Services                   0     89,304 K
+Dell.TechHub.exe              6408 Services                   0     38,216 K
+FusionService.exe            11220 Services                   0     17,836 K
+SgrmBroker.exe               14488 Services                   0      7,116 K
+SupportAssistAgent.exe       10560 Services                   0    510,824 K
+svchost.exe                   6456 Services                   0      6,296 K
+svchost.exe                  12704 Services                   0      6,480 K
+DDVDataCollector.exe         14024 Services                   0     53,712 K
+DDVCollectorSvcApi.exe        3796 Services                   0      4,016 K
+Dell.TechHub.Diagnostics.     7488 Services                   0     75,776 K
+conhost.exe                  14312 Services                   0      3,788 K
+Dell.TechHub.Analytics.Su    16684 Services                   0     35,480 K
+conhost.exe                   4788 Services                   0      3,216 K
+Dell.DCF.UA.Bradbury.API.    11952 Services                   0     55,632 K
+conhost.exe                   4020 Services                   0      3,224 K
+Dell.TechHub.DataManager.     6392 Services                   0     74,268 K
+conhost.exe                   7172 Services                   0      3,228 K
+Dell.TechHub.Instrumentat     4348 Services                   0    112,020 K
+conhost.exe                   9240 Services                   0      3,576 K
+svchost.exe                  16280 Services                   0      2,356 K
+svchost.exe                  18552 Services                   0      7,348 K
+SecurityHealthService.exe     7292 Services                   0     10,948 K
+svchost.exe                  14284 Services                   0     22,900 K
+svchost.exe                  20700 Services                   0      7,132 K
+csrss.exe                     8328 Console                    8      7,332 K
+winlogon.exe                 16544 Console                    8     10,444 K
+fontdrvhost.exe              23156 Console                    8      7,928 K
+dwm.exe                      23528 Console                    8    106,168 K
+NVDisplay.Container.exe       3048 Console                    8     54,452 K
+sw_d.exe                      5048 Services                   0     11,040 K
+dptf_helper.exe              16048 Console                    8      5,860 K
+nvcontainer.exe              15324 Console                    8     48,688 K
+sihost.exe                   12396 Console                    8     33,924 K
+svchost.exe                  13812 Console                    8      8,972 K
+svchost.exe                  10156 Console                    8     27,692 K
+igfxEMN.exe                  12804 Console                    8     13,692 K
+svchost.exe                  15764 Console                    8      7,692 K
+svchost.exe                   3460 Console                    8     45,420 K
+taskhostw.exe                22072 Console                    8     22,860 K
+explorer.exe                  9088 Console                    8    203,524 K
+svchost.exe                  14008 Console                    8     39,376 K
+NVIDIA Web Helper.exe        19156 Console                    8      7,804 K
+conhost.exe                  14956 Console                    8      1,084 K
+SearchHost.exe               23536 Console                    8    350,752 K
+RtkAudUService64.exe         21100 Console                    8     10,748 K
+StartMenuExperienceHost.e    23048 Console                    8    118,708 K
+Widgets.exe                  11236 Console                    8     48,876 K
+RuntimeBroker.exe             4612 Console                    8     63,208 K
+RuntimeBroker.exe            18392 Console                    8     28,664 K
+svchost.exe                  10700 Console                    8     13,460 K
+svchost.exe                   1660 Console                    8     20,556 K
+dllhost.exe                  20128 Console                    8     16,804 K
+backgroundTaskHost.exe       10816 Console                    8      5,996 K
+LocationNotificationWindo     1432 Console                    8      6,536 K
+ctfmon.exe                   18848 Console                    8     23,068 K
+RuntimeBroker.exe            11344 Console                    8     23,324 K
+TextInputHost.exe            13936 Console                    8    179,272 K
+WidgetService.exe            22480 Console                    8     22,720 K
+RtkAudUService64.exe         15340 Console                    8     13,928 K
+WavesSvc64.exe               12412 Console                    8     57,352 K
+figma_agent.exe               2748 Console                    8     17,208 K
+IGCC.exe                      1404 Console                    8     45,952 K
+RuntimeBroker.exe            15276 Console                    8      7,780 K
+svchost.exe                   5604 Services                   0      5,652 K
+dllhost.exe                   4008 Console                    8      9,184 K
+ShellExperienceHost.exe      19048 Console                    8    127,700 K
+RuntimeBroker.exe            15204 Console                    8     32,436 K
+WhatsApp.exe                 23052 Console                    8     71,836 K
+RuntimeBroker.exe            19888 Console                    8     22,228 K
+ApplicationFrameHost.exe     12840 Console                    8     29,108 K
+svchost.exe                  18184 Console                    8     12,320 K
+Dell.TechHub.Instrumentat    10376 Console                    8     73,804 K
+WmiPrvSE.exe                 23352 Services                   0     32,792 K
+SystemSettingsBroker.exe     21384 Console                    8     32,060 K
+Betternet.exe                10024 Console                    8    247,452 K
+svchost.exe                  14504 Console                    8      8,972 K
+svchost.exe                  18712 Services                   0      6,372 K
+wpscloudsvr.exe               3500 Console                    8      3,512 K
+wpscenter.exe                16644 Console                    8     41,600 K
+cmd.exe                      10544 Console                    8      5,028 K
+conhost.exe                  14724 Console                    8     27,452 K
+svchost.exe                  17728 Console                    8     12,948 K
+dllhost.exe                  20616 Console                    8     20,528 K
+brave.exe                    19320 Console                    8    296,316 K
+brave.exe                     9968 Console                    8      7,980 K
+brave.exe                    23544 Console                    8    215,460 K
+brave.exe                    12716 Console                    8     45,384 K
+brave.exe                     7652 Console                    8     20,924 K
+brave.exe                    12128 Console                    8     19,460 K
+brave.exe                     8252 Console                    8     44,180 K
+brave.exe                    19408 Console                    8     50,732 K
+brave.exe                     7040 Console                    8     33,816 K
+brave.exe                    17928 Console                    8     21,108 K
+brave.exe                    11764 Console                    8    100,384 K
+RuntimeBroker.exe            20900 Console                    8      8,576 K
+backgroundTaskHost.exe       15880 Console                    8      3,996 K
+firefox.exe                  13912 Console                    8    284,804 K
+firefox.exe                  19588 Console                    8    235,616 K
+firefox.exe                  11836 Console                    8     16,700 K
+RuntimeBroker.exe            11600 Console                    8      9,488 K
+firefox.exe                  22516 Console                    8     50,588 K
+firefox.exe                  22324 Console                    8    109,592 K
+firefox.exe                  12320 Console                    8     29,752 K
+firefox.exe                   2664 Console                    8     29,756 K
+firefox.exe                  13068 Console                    8     29,756 K
+brave.exe                    18984 Console                    8    166,096 K
+brave.exe                     1792 Console                    8     73,336 K
+brave.exe                    20296 Console                    8     88,040 K
+svchost.exe                   1200 Services                   0      7,532 K
+brave.exe                    12548 Console                    8     27,960 K
+WmiApSrv.exe                  1736 Services                   0     10,048 K
+WmiPrvSE.exe                  1724 Services                   0     14,740 K
+WMIC.exe                      7872 Services                   0     13,372 K
+conhost.exe                  18028 Services                   0     13,212 K
+WMIC.exe                      4648 Services                   0     13,324 K
+WMIC.exe                     11292 Services                   0     13,328 K
+conhost.exe                  22292 Services                   0     13,216 K
+conhost.exe                  22648 Services                   0     13,216 K
+sppsvc.exe                   15716 Services                   0     20,560 K
+backgroundTaskHost.exe        2168 Console                    8     23,580 K
+tasklist.exe                  7460 Console                    8      9,324 K
+
+C:\Windows\System32>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    100.127.255.253:53693  13.107.213.254:https   CLOSE_WAIT
+  TCP    100.127.255.253:53694  13.107.3.254:https     CLOSE_WAIT
+  TCP    100.127.255.253:53695  204.79.197.222:https   CLOSE_WAIT
+  TCP    100.127.255.253:53696  13.107.21.200:https    CLOSE_WAIT
+  TCP    127.0.0.1:25734        localhost:1234:64971   ESTABLISHED
+  TCP    127.0.0.1:49711        localhost:1234:49712   ESTABLISHED
+  TCP    127.0.0.1:49712        localhost:1234:49711   ESTABLISHED
+  TCP    127.0.0.1:49733        localhost:1234:49734   ESTABLISHED
+  TCP    127.0.0.1:49734        localhost:1234:49733   ESTABLISHED
+  TCP    127.0.0.1:53705        localhost:1234:53706   ESTABLISHED
+  TCP    127.0.0.1:53706        localhost:1234:53705   ESTABLISHED
+  TCP    127.0.0.1:53707        localhost:1234:53708   ESTABLISHED
+  TCP    127.0.0.1:53708        localhost:1234:53707   ESTABLISHED
+  TCP    127.0.0.1:64969        localhost:1234:64970   ESTABLISHED
+  TCP    127.0.0.1:64970        localhost:1234:64969   ESTABLISHED
+  TCP    127.0.0.1:64971        localhost:1234:25734   ESTABLISHED
+  TCP    172.16.208.122:53540   bom07s45-in-f4:https   CLOSE_WAIT
+  TCP    172.16.208.122:53542   bom07s45-in-f4:https   CLOSE_WAIT
+  TCP    172.16.208.122:53551   bom07s45-in-f4:https   CLOSE_WAIT
+  TCP    172.16.208.122:53552   bom07s30-in-f14:https  CLOSE_WAIT
+  TCP    172.16.208.122:53553   bom05s11-in-f1:https   CLOSE_WAIT
+  TCP    172.16.208.122:53554   172.217.167.174:https  CLOSE_WAIT
+  TCP    172.16.208.122:53556   bom07s31-in-f13:https  CLOSE_WAIT
+  TCP    172.16.208.122:53562   server-18-161-216-127:https  CLOSE_WAIT
+  TCP    172.16.208.122:53564   server-18-161-216-127:https  CLOSE_WAIT
+  TCP    172.16.208.122:53568   bom07s31-in-f13:https  CLOSE_WAIT
+  TCP    172.16.208.122:53577   199.232.196.134:https  CLOSE_WAIT
+  TCP    172.16.208.122:53646   55:https               ESTABLISHED
+  TCP    172.16.208.122:53650   151.101.66.137:https   CLOSE_WAIT
+  TCP    172.16.208.122:53655   server-108-159-61-18:https  CLOSE_WAIT
+  TCP    172.16.208.122:53669   server-65-9-112-40:https  CLOSE_WAIT
+  TCP    172.16.208.122:53671   bom12s18-in-f4:http    CLOSE_WAIT
+  TCP    172.16.208.122:53672   172.217.160.206:https  CLOSE_WAIT
+  TCP    172.16.208.122:53702   123:https              ESTABLISHED
+  TCP    172.16.208.122:54040   20.198.119.84:https    ESTABLISHED
+  TCP    172.16.208.122:54044   lga25s80-in-f14:http   CLOSE_WAIT
+  TCP    172.16.208.122:54071   a23-57-40-213:https    CLOSE_WAIT
+  TCP    [fe80::302b:d1ee:9a3b:95a4%12]:1521  Jesten:49689           ESTABLISHED
+  TCP    [fe80::302b:d1ee:9a3b:95a4%12]:49689  Jesten:1521            ESTABLISHED
+
+C:\Windows\System32>traceroute www.google.com
+'traceroute' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>tracert www.google.com
+
+Tracing route to www.google.com [142.250.183.196]
+over a maximum of 30 hops:
+
+  1     3 ms     2 ms     3 ms  172.16.208.1
+  2     *        *        *     Request timed out.
+  3    44 ms    42 ms    43 ms  as15169.bom.extreme-ix.net [103.77.108.82]
+  4    44 ms    46 ms    50 ms  108.170.248.209
+  5    51 ms    43 ms    42 ms  142.251.64.11
+  6   144 ms    45 ms    42 ms  bom07s33-in-f4.1e100.net [142.250.183.196]
+
+Trace complete.
+
+C:\Windows\System32>
