@@ -16,4 +16,4 @@ include "./config.php";
     header("Location: ./index.html");
 
     mysqli_close($conn);
-?>
+?>//
