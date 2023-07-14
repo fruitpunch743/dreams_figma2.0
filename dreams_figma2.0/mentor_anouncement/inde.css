@@ -35,7 +35,7 @@ img{
     top: -2px;
 }
 
-.item1 h1{
+.item1 h3{
     position: absolute;
     width: 381px;
     height: 50px;
@@ -63,7 +63,7 @@ img{
     outline: none;
 }
 
-.item2 h1{
+.item2 h3{
     position: absolute;
     width: 381px;
     height: 50px;
@@ -99,7 +99,7 @@ img{
     top: 439px;
 }
 
-.item3 h1{
+.item3 h3{
     position: absolute;
     width: 565px;
     height: 50px;
@@ -130,11 +130,12 @@ img{
 
 .btn
 {      
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     width: 200px;
     height: 50px;
-    left: 40px;
-    top: 600px;
+    /* left: 40px;
+    top: 600px; */
     overflow: hidden;
     border: 2px solid #1C7730;  
     font-size: 1rem;
@@ -142,7 +143,7 @@ img{
     color: #1C7730;
     background: none;
     cursor: pointer;
-    margin: 15px 30px;
+    margin: 5px 5px;
     outline: none;
     position: relative;
     transition: all 0.3s;
@@ -247,4 +248,38 @@ img{
    
     }
     
-}   
+} 
+
+/* Changes for select */
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+
+.wrapper input {
+    border:0px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+select {
+    height: 40px;
+    width: 83px;
+    border-radius: 8px;
+    border-bottom: 1px solid black;
+    
+}
+
+.wrapper textarea {
+    width: 45%;
+    border:0px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.wrapper btn btn-02{
+    gap:0rem;
+}

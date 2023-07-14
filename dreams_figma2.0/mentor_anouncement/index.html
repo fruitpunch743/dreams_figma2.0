@@ -13,22 +13,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="inde.css">
 </head>
 <body>
     <div class="header pd-0">
         <img src="Dreams B.png" width="130px" height="130px">
         <h1 class="title ps-3 pt-4">DREAMS</h1>
         <a href="#" class="logout">Logout</a>
-    </div>
+    </div><br>
     
-    <form action="./index.php" method="post"  onsubmit="show_alert()">
-        <div class="item1">
-            <h1>Announcement Title</h1>
-            <input type="text" placeholder="Enter the title here" name="title" required>
+    <form class= "wrapper" action="./index.php" method="post"  onsubmit="show_alert()">
+        <div class="asgnmt-title-wrapper">
+            <h3>Announcement Title</h3>
+            <textarea placeholder="Enter the title here" name="title" rows="1"></textarea required> 
         </div>
-        <div class="item2">
-            <h1>Date</h1>
+        <div class="asgnmt-deadline-wrapper">
+            <h3>Date</h3>
             <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <rect width="45" height="45" fill="url(#pattern0)"/>
                 <defs>
@@ -40,9 +40,17 @@
                 </svg>            
             <input type="date" placeholder="Enter the deadline here" name="deadline" required>
         </div>
-        <div class="item3">
-            <h1>Announcement Description</h1>           
-            <textarea name="description" id="" cols="10" rows="10" placeholder="Enter the description here"></textarea
+        <div class="asgnmt-year-dropdown">
+            <h3>Year</h3>
+            <select id="year" name="Yearlist">
+                <option>Year 1</option>
+                <option>Year 2</option>
+                <option>Year 3</option>
+                <option>All of the above</option>
+            </select></div>
+        <div class="asgnmt-desc-wrapper">
+            <h3>Announcement Description</h3>           
+            <textarea name="description" id="" cols="10" rows="3" placeholder="Enter the description here"></textarea
                 required>
         </div>
         <button class="btn btn-02" name="submit">Submit</button>
