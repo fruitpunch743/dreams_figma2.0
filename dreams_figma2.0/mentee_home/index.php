@@ -21,7 +21,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="ind.css" />
   <link rel="stylesheet" href="badge.css" />
  
 </head>
@@ -84,19 +84,21 @@
     </div>
     <div class="col">
     <div class="announcement">
-            <svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg width="53" height="57" viewBox="0 0 53 57" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <rect width="53" height="57" fill="url(#pattern0)"/>
                 <defs>
                 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                 <use xlink:href="#image0_105_23" transform="matrix(0.0025 0 0 0.00232456 0 0.174561)"/>
                 </pattern>
-                </defs>
+                 <!--img-->
                 </svg>
-            <h4>Announcements</h4>
+                <h4>Announcements</h4><br><br><br><br><br>
+            <div class="an-card">
                 <?php include('./get_announcement.php') ?>
         </div>
-
-    </div>
+</div>
+</div>
+   
 </body>
 
 </html>

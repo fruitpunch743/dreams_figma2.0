@@ -111,6 +111,7 @@ if ($result->num_rows > 0) {
 
 
         echo '
+        <a class="links" href="./dreams_figma/completed.php?u='.$row["t_id"].'">
         <div class="dn_tabs"><br>
                 <img class="img" src="./image_5.png" width="90px" height="65px">
                 <div class="s_container">
