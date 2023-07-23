@@ -15,14 +15,13 @@
 img{
     float: left;
 }
-.logout{
-    float: right;
-    padding-top: 50px;
-    padding-right: 50px;
-    font-size: 30px;
-    text-decoration: none;
-    cursor: pointer;
-    color: #fff;
+.logout button{
+  float: right;
+  background-color: transparent;
+  border: 5px solid transparent;
+  padding-top: 50px;
+  padding-right: 50px;
+  color: rgb(255, 255, 255);
 }
 .links{
   cursor: pointer;
@@ -233,16 +232,19 @@ h6{
     height: 140px;
 }
 
-.title{
-    float: left;
-    font-size: 32px;
+.title {
+  float: left;
+  color: white;
+  font-size: 30px;
 }
-.logout{
-    position: unset;
-    font-size: 20px;
-    float: right;
-    padding-top: 100px;
-    padding-right: 15px;
+.logout button{
+  float: right;
+  background-color: transparent;
+  width: 90px;
+  height: 50px;
+  border: 5px solid transparent;
+  
+  color: rgb(255, 255, 255);
 }
 .as_text{
   float: left;

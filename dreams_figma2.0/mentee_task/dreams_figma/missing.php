@@ -34,15 +34,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
-    font-family: 'Montserrat';
-
-}
+        * {
+    font-family: "Montserrat";
+    color: #1c7730;
+    position: relative;
+  }
 .header{
     width: 100%;
     height: 140px;
     background-color: #1C7730;
     
+}
+.logout button{
+    float: right;
+    background-color: transparent;
+    border: 5px solid transparent;
+    padding-top: 50px;
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
 }
 .title{
     float: left;
@@ -153,18 +162,7 @@ img{
     color: #000000;
 
 }
-.spookysticker{
-    /* Spooky Stickers Chunky Bat */
 
-
-    position: absolute;
-    width: 85.14px;
-    height: 65px;
-    left: 140px;
-    top: 51px;
-
-    background: url(.png);
-}
 .graduateimg{
     /* Hands Graduate */
 
@@ -390,10 +388,20 @@ label{
       height: 140px;
   }
 
-  .title{
+  .title {
       float: left;
-      font-size: 32px;
-  }
+      color: white;
+      font-size: 28px;
+    }
+    .logout button{
+      float: right;
+      background-color: transparent;
+      width: 90px;
+      height: 50px;
+      border: 5px solid transparent;
+      
+      color: rgb(255, 255, 255);
+    }
   .back{
     position: unset;
     font-size: 20px;
@@ -436,13 +444,12 @@ label{
     <div class="header pd-0">
         <img src="Dreams B.png" width="130px" height="130px">
         <h1 class="title ps-3 pt-4">DREAMS</h1>
-        <h2 class="logout">Logout</h2>
+        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentee_home/logout.php';">Logout</button></h2>
     </div>  
     <img class="missimg" src="missing_img.jpeg">        
     <h2 class="head">MISSING</h2>
     <hr class="headhr"> 
     <div class="content">
-        <img  class="spookysticker" src="Spooky Stickers Chunky Bat.png">
         <img class="graduateimg" src="icons8-error-16.png">
         <h2 class="tasktitle">Task</h2>
         <hr>
@@ -459,16 +466,7 @@ label{
             <?php echo $desc; ?>
         </div>
     </div>
-    <?php
-        $sql = "select * from completed where mentee_id = ".$mentee." and task_id=".$tas_id.";";
-        $res = $con->query($sql);
-        if($res->num_rows > 0){
-            echo "Status: completed";
-        }
-        else{
-            echo '<button class="btn btn-02" name="submit" onclick ="disalert()">Mark as completed</button>';
-        }
-    ?>
+    <button class="btn btn-02" name="submit" onclick ="disalert()">Mark as completed</button>
     <script>
     function disalert() {
         alert("Assignment marked as completed");

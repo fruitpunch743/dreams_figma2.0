@@ -20,13 +20,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
     <div class="header pd-0">
         <img src="Dreams B.png" width="130px" height="130px">
         <h1 class="title ps-3 pt-4">DREAMS</h1>
-        <a class="logout">Back</a>
+        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentee_home/logout.php';">Logout</button></h2>
     </div><br><br>
     <div class="tabContainer">    
       <div class="button_container">

@@ -336,9 +336,19 @@ label{
       height: 140px;
   }
 
-  .title{
-      float: left;
-      font-size: 32px;
+  .title {
+    float: left;
+    color: white;
+    font-size: 30px;
+  }
+  .logout button{
+    float: right;
+    background-color: transparent;
+    width: 90px;
+    height: 50px;
+    border: 5px solid transparent;
+    
+    color: rgb(255, 255, 255);
   }
   .back{
     position: unset;
@@ -375,12 +385,4 @@ label{
     left: 35px;
     top: 280px;
 }   
-.logout button{
-    float: right;
-    background-color: transparent;
-    border: 5px solid transparent;
-    padding-top: 10px;
-    padding-right: 30px;
-    color: rgb(255, 255, 255);
-  }
 }
