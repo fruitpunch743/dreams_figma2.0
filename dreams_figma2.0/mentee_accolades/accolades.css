@@ -20,11 +20,13 @@
 img{
     float: left;
 }
-.logout{
+.logout button{
     float: right;
+    background-color: transparent;
+    border: 5px solid transparent;
     padding-top: 50px;
     padding-right: 50px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .accheader{
     margin-top: 140px;
@@ -89,18 +91,20 @@ img{
           width: 100%;
           height: 140px;
       }
-    .title{
-        float: relative;
-        font-size: 32px;
-    }
-    .logout{
-        position: relative;
-        font-size: 20px;
-        cursor: pointer;
+      .title {
+        float: left;
+        color: white;
+        font-size: 30px;
+      }
+      .logout button{
         float: right;
-        padding-top: 39px;
-        padding-right: 15px;
-    }
+        background-color: transparent;
+        width: 90px;
+        height: 50px;
+        border: 5px solid transparent;
+        
+        color: rgb(255, 255, 255);
+      }
     .accheader{
         padding: 45px;
         font-size: 50px;
