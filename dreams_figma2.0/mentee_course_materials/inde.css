@@ -106,17 +106,20 @@ img{
         background-color: #1C7730;
     }
 
-    .title{
+    .title {
         float: left;
-        font-size: 32px;
-    }
-    .logout{
-        position: unset;
-        font-size: 20px;
+        color: white;
+        font-size: 30px;
+      }
+      .logout button{
         float: right;
-        padding-top: 20px;
-        padding-right: 15px;
-    }
+        background-color: transparent;
+        width: 90px;
+        height: 50px;
+        border: 5px solid transparent;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+      }
     .col h1{
         font-weight: 600;
         font-size: 29px;
