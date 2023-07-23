@@ -20,14 +20,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="ind.css">
 </head>
 <body>
     <div class="header pd-0">
         <img src="Dreams B.png" width="130px" height="130px">
         <h1 class="title ps-3 pt-4">DREAMS</h1>
-        <a href="/dreams_figma2.0/dreams_figma2.0/login/index.php" class="logout">Logout</a>
-    </div>
+        <a href="/dreams_figma2.0/dreams_figma2.0/mentee_home/logout.php" class="logout">Logout</a>
         <div class="col">
             <div class="item1">
                 <a href="../chat2/index.php">
