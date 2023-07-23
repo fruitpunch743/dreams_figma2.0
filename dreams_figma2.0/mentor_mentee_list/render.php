@@ -9,7 +9,7 @@ if ($result->num_rows > 0) {
         <div class="card-body">
           <img
             class="dp"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbfcKdjTXtncIovdA5Byz-iY6oXD1PhFLJv9zhEuCf6L0yvqE_SrXg_EWMb_n1ruVoVzM&usqp=CAU"
+            src="graduated_3135810.png"
             alt=""
           />
           <h3>'.$row["mentee_name"].'</h3>
