@@ -19,7 +19,7 @@
     <div class="header pd-0">
       <img src="Dreams B.png" width="130px" height="130px" />
       <h1 class="title ps-3 pt-4">DREAMS</h1>
-      <h2 class="logout">Logout</h2>
+      <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentee_home/logout.php';">Logout</button></h2>
     </div>
     <div class="row">
       <div class="col-4 note-items-layout">
