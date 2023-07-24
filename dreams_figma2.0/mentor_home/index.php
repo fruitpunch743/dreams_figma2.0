@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="bad.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
@@ -21,6 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="ind.css">
+    
 </head>
 <body>
     <div class="header pd-0">
@@ -28,6 +30,11 @@
         <h1 class="title ps-3 pt-4">DREAMS</h1>
         <a href="/dreams_figma2.0/dreams_figma2.0/mentee_home/logout.php" class="logout">Logout</a>
         <div class="col">
+            <div class="blah">
+                <div class="badge">
+                    <p class="title" style="color:black;">fhj<br>Desire group christ school</p>
+                </div>
+            </div>
             <div class="item1">
                 <a href="../chat2/index.php">
                     <svg width="82" height="89" viewBox="0 0 82 89" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
