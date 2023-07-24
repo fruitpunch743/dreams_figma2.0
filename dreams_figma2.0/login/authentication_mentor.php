@@ -19,6 +19,7 @@
         session_start();
         $_SESSION['email'] = $username;
         $_SESSION['user_id'] = $row['mentor_id'];
+        $_SESSION['name'] = $row['mentor_name'];
         echo "logged in";
         header("Location: ../mentor_home/index.php");  
     }  

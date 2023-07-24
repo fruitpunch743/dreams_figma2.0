@@ -51,46 +51,39 @@
     float: right;
     width: 80%;
     height: 100%;
-    right: 30px;
-    top: 20px; 
-    background-color: lightgreen;
-    border-radius: 8px;
+    right: 0px;
+    top: 0px; 
+    background-color: #ACF0A6;
 }
-.announcement svg{
-  position: absolute;
-  width: 53px;
-  height: 57px;
-  left: 30px;
-  top: 20px;
-}
+  .announcement img{
+    position: absolute;
+    width: 53px;
+    height: 57px;
+    left: 65px;
+    top: 52px;
+  }
   
   .announcement h4{
     position: absolute;
     width: 333px;
     height: 71px;
-    left: calc(50% - 420px/2 + 37px);
-    top: 20px;
+    left: calc(50% - 333px/2 + 25px);
+    top: 50px;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
-    color: black;
-}
+    color: #1b1bbd;
+  }
   
   .an-card{
     position: absolute;
     width: 390px;
-    height: 400px;
-    left: 40px;
-    top: 90px;
-    background-color: white;
-    border-radius: 5px;
-    overflow-x: hidden;
-    overflow-y:auto;
-    
-
-
-}
+    height: 160px;
+    left: 65px;
+    top: 128px;
+    background-color: #fff;
+  }
   
   .an-card p{
     padding-block: 5px;
@@ -177,28 +170,29 @@
   
   @media screen and  (max-width: 600px){
     .title {
-        float: left;
-        color: white;
-        font-size: 30px;
-      }
-      .logout button{
-        float: right;
-        background-color: transparent;
-        width: 90px;
-        height: 50px;
-        border: 5px solid transparent;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-      }
+      float: left;
+      color: white;
+      font-size: 30px;
+    }
+    .logout button{
+      float: right;
+      background-color: transparent;
+      width: 90px;
+      height: 50px;
+      border: 5px solid transparent;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+    }
     .announcement{
-      position: relative;
-      width: 470px;
-      height: 500px;
+      position: absolute;
+      float: right;
+      width: 80%;
+      height: 100%;
       right: 0px;
       top: 0px; 
       background-color: #ACF0A6;
   }
-    .announcement svg{
+    .announcement img{
       position: absolute;
       width: 53px;
       height: 57px;
@@ -222,8 +216,8 @@
     .an-card{
       position: absolute;
       width: 390px;
-      height: 300px;
-      left: 77px;
+      height: 160px;
+      left: 65px;
       top: 128px;
       background-color: #fff;
     }
