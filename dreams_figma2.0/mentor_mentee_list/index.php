@@ -18,10 +18,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+  <header>
 
 <img src="./Dreams B.png" alt="">
-      <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DREAMS</h1>
+      <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DREAMS</h1>
       <button type="button" onclick="location.href='/dreams_figma2.0/dreams_figma2.0/mentor_home/index.php'">Back</button>
     </header>
 
