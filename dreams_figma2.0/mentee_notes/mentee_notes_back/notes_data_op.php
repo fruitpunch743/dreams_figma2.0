@@ -5,7 +5,7 @@ include('../../mentee_login/connection.php');
 $query = 'SELECT * FROM notes_table';
 $result = mysqli_query($con, $query);
 $note_list = mysqli_fetch_all($result, MYSQLI_ASSOC);
-session_start();
+
 // $user = $_SESSION["user"];
 
 $user = $_SESSION['email'];
