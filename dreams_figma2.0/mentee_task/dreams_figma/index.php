@@ -45,7 +45,6 @@
     <h2 class="head">ASSIGNED</h2>
     <hr class="headhr">
     <div class="content">
-        <img  class="spookysticker" src="Spooky Stickers Chunky Bat.png">
         <img class="graduateimg" src="Hands Graduate.png">
         <h2 class="tasktitle">Task</h2>
         <hr>
