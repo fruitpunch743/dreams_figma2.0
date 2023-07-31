@@ -42,7 +42,7 @@ img{
       background: #57d77c;  
       background: -webkit-linear-gradient(to left, #ffffff, #57d77c);  
       width: 100%;
-      height:100vh;
+      height:120vh;
       
      
   }
@@ -416,15 +416,29 @@ input[type="radio"]{
   left: 10%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and ( max-width: 600px){
+  .area{
+    background: #57d77c;  
+    background: -webkit-linear-gradient(to left, #ffffff, #57d77c);  
+    width: 100%;
+    height:200vh;
+    
+   
+}
+  .login-box {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+  }
   .slider {
     width: 90%;
     margin: 0 auto;
+    padding-top: 50px;
   }
   
   .slides {
     width: 100%;
-    height: 400px;
+    height: 700px;
     flex-wrap: nowrap;
   }
   
@@ -436,7 +450,8 @@ input[type="radio"]{
   }
   
   .coursel {
-    top: 90%;
-    left: 10%;
+    padding-top: 50px;
+    top: 95%;
+    right: 5%;
   }
 }

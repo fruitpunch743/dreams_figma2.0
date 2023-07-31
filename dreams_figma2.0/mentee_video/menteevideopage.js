@@ -1,3 +1,4 @@
+
 const topicButtons = document.querySelectorAll(".topic-button");
 var nexttopicbutton=document.querySelector(".additional_button");
 let current;
@@ -39,6 +40,7 @@ topicButtons.forEach(button => {
 
   switch (topicValue) {
     case "topic1":
+      
       current=0;
         topicno = 1;
         topicvalue=topicValue;
@@ -174,12 +176,16 @@ if(checkTick.checked==true)
 // Change the contents of the label
 label.innerHTML = 'Topic completed!';
 
+
+
+
 }
 else{
   var label = document.querySelector('.completed_label');
 
   // Change the contents of the label
   label.innerHTML = 'Mark as completed';
+  
 
 }
   }
@@ -189,14 +195,13 @@ xhrs.send();
 }
 
 
-//--------------------when u check an unchecked box-------------
 var checkTick = document.querySelector(".checkbox_video");
 var xhrm = new XMLHttpRequest();
+
 checkTick.addEventListener("change", function() {
   var completedValue = checkTick.checked ? 1 : 0; // 1 if checked, 0 if unchecked
 
   // Create an XMLHttpRequest object
-  
 
   // Prepare the AJAX request
   xhrm.open("GET", "update_completed.php?topicvalue=" + encodeURIComponent(topicvalue) + "&completed=" + encodeURIComponent(completedValue), true);
@@ -206,7 +211,11 @@ checkTick.addEventListener("change", function() {
     if (xhrm.status === 200) {
       // Request was successful
       console.log("Completed status updated successfully.");
-      //checking();
+
+      // Load and execute the JavaScript file after successful updation
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'svg.js'; // Replace with the actual path to your JS file
+      document.head.appendChild(scriptElement);
     } else {
       // Request failed
       console.error("Request failed with status code " + xhrm.status);
@@ -216,6 +225,7 @@ checkTick.addEventListener("change", function() {
   // Send the AJAX request
   xhrm.send();
 });
+
 
 
 var checkTick = document.querySelector(".checkbox_video");
@@ -285,11 +295,6 @@ nexttopicbutton.style.display='none';
   //topicButtons.click()
 
 }
-
-
-
-
-
 
 
 
