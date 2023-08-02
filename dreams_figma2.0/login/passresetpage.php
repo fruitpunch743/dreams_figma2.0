@@ -5,7 +5,65 @@ session_start();
 $page_title = "Forgot password";
 ?>
 
-
+<style>
+    body {
+        background-color: #f3f8f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+    .card {
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+    .card-header {
+        background-color: #1d9a6c;
+        color: #fff;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .form-control {
+        border-radius: 5px;
+        font-size: 14px;
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    .btn-primary {
+        background-color: #1d9a6c;
+        border-color: #1d9a6c;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+        padding: 10px;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .btn-primary:hover {
+        background-color: #148c5a;
+        border-color: #148c5a;
+    }
+</style>
 
 <div class="py-5">
     <div class="container">

@@ -421,7 +421,7 @@ input[type="radio"]{
     background: #57d77c;  
     background: -webkit-linear-gradient(to left, #ffffff, #57d77c);  
     width: 100%;
-    height:180vh;
+    height:200vh;
     
    
 }
@@ -449,14 +449,9 @@ input[type="radio"]{
     font-size: 80px;
   }
   
-  .coursel{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-  }
-  /*.coursel {
-    padding-top: 90px;
+  .coursel {
+    padding-top: 50px;
     top: 95%;
     right: 5%;
-  }*/
+  }
 }
