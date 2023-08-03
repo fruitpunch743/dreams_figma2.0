@@ -18,6 +18,7 @@
     if($count == 1){  
         session_start();
         $_SESSION['email'] = $username;
+        $_SESSION['name'] = $row['mentor_name'];
         $_SESSION['user_id'] = $row['mentor_id'];
         echo "logged in";
         header("Location: ../mentor_home/index.php");  

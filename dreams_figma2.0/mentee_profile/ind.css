@@ -22,23 +22,15 @@ img{
     float: left;
 }
 
-.logout{
-    position: relative;
-    font-size: 24px;
-    cursor: pointer;
+.logout button{
     float: right;
-    height: 50px;
-    width: 5rem;
+    background-color: transparent;
+    border: 5px solid transparent;
     padding-top: 50px;
-    padding-right: 100px;
-    color: white;
-    border-bottom: 2px solid transparent;
-}
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
+  }
 
-.logout:hover{
-    color: black;
-    top: -2px;
-}
 
 
 
@@ -180,18 +172,20 @@ top: 438px;
               width: 100%;
               height: 140px;
           }
-    .title{
-            float: relative;
-            font-size: 32px;
-        }
-    .logout{
-            position: relative;
-            font-size: 20px;
-            cursor: pointer;
+          .title {
+            float: left;
+            color: white;
+            font-size: 30px;
+          }
+          .logout button{
             float: right;
-            padding-top: 20px;
-            padding-right: 15px;
-        }
+            background-color: transparent;
+            width: 90px;
+            height: 50px;
+            border: 5px solid transparent;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+          }
     
     .rectangle{
         position: relative;

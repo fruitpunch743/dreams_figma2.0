@@ -84,18 +84,20 @@ h2{
             
             
         }
-    .title{
-        float: left;
-        font-size: 32px;
-    }
-    .logout{
-        position: unset;
-        font-size: 20px;
-        cursor: pointer;
-        float: right;
-        padding-top: 39px;
-        padding-right: 15px;
-    }
+        .title {
+            float: left;
+            color: white;
+            font-size: 30px;
+          }
+          .logout button{
+            float: right;
+            background-color: transparent;
+            width: 90px;
+            height: 50px;
+            border: 5px solid transparent;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+          }
     .bottom{
         width: 400px;
         margin-top: 250px;     

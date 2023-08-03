@@ -52,7 +52,22 @@ $user_id = $_SESSION['user_id'];
 	<div class="header pd-0">
 		<img src="Dreams B.png" width="130px" height="130px" />
 		<h1 class="title ps-3 pt-4">DREAMS</h1>
-		<h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentee_home/index.php';">Logout</button></h2>	</div>
+		<?php 
+      include('connection.php');  
+      $sql = "select * from mentor_table where mentor_id= ".$_SESSION["user_id"]."; ";
+      $result = mysqli_query($con, $sql);  
+      $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
+      $count = mysqli_num_rows($result);  
+      
+      if($count == 1){  ?>
+        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentor_home/index.php';">Back</button></h2>
+        <?php
+      }else{?>
+        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentee_home/index.php';">Back</button></h2>
+        <?php
+      }
+      ?>
+	  </div>
 	<div class="row ">
 		<div class="ps-4 col-4 list-i" >
 			<br />
