@@ -3,7 +3,7 @@ session_start();
 if(!isset($_SESSION['user_id'])){
     header("Location: ../login/index.php");
 }
-include('config.php');
+require_once('config.php');
 $query="select title, Yearlist, deadline, description from assignment where assigned_by=".$_SESSION['user_id']." order by  t_id desc limit 0,4";
 $result= mysqli_query($conn,$query);
 
@@ -25,13 +25,13 @@ $result= mysqli_query($conn,$query);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ind.css">
+    <link rel="stylesheet" href="inde.css">
 </head>
 <body>
     <div class="header pd-0">
         <img src="Dreams B.png" width="130px" height="130px">
         <h1 class="title ps-3 pt-4">DREAMS</h1>
-        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentor_home/index.php';">Back</button></h2>
+        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentee_home/logout.php';">Logout</button></h2>
     </div><br>
     
     <form class="wrapper" action="./index.php" method="post"  onsubmit="show_alert()">
@@ -67,7 +67,7 @@ $result= mysqli_query($conn,$query);
         </div>
         <button class="btn btn-02" name="submit">Submit</button>
 
-        <div style ="width:40%" class="container"> 
+        <div  class="container"> 
             <div class="row mt 5"> 
                 <div class="col"> 
                     <div class="card mt-5">

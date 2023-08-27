@@ -7,9 +7,8 @@ a{
 }
 
 .header{
-    position: fixed;
     width: 100%;
-    height: 10px;
+    height: 140px;
     background-color: #1C7730;
     
 }
@@ -22,28 +21,18 @@ img{
     float: left;
 }
 
-.logout{
-    position: relative;
-    font-size: 24px;
-    cursor: pointer;
+.logout button{
     float: right;
-    height: 50px;
-    width: 5rem;
+    background-color: transparent;
+    border: 5px solid transparent;
     padding-top: 50px;
-    padding-right: 100px;
-    color: white;
-    border-bottom: 2px solid transparent;
-}
-
-.logout:hover{
-    color: black;
-    top: -2px;
-}
-
-
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
+  }
 
 .container{
-    padding-top: 30px;
+    position : relative;
+    padding-top: 10px;
     padding-bottom: 60px;
 }
 
@@ -51,14 +40,13 @@ img{
 
 /* Rectangle 6 */
 .rectangle{
-position: absolute;
-width: 351px;
-height: 95px;
-padding: 20px;
-background: #C2ECAE;
-border-radius: 20px;
+    position: relative;
+    width: 220px;
+    height: 50px;
+    padding: 5px;
+    background: #C2ECAE;
+    border-radius: 20px;
 }
-
 
 .rectangle h3{
 position: absolute;
@@ -70,15 +58,16 @@ font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 39px;
-
+top:-2px;
 color: #000000;
 }
 
+
 .rect {
     position: absolute;
-    width: 520px;
-    height: 305px;
-    top: 347px;
+    width: 420px;
+    height: 220px;
+    top: 75px;
     padding: 20px;
     background: #C2ECAE;
     border-radius: 20px;
@@ -92,11 +81,56 @@ color: #000000;
     background-color: transparent;
     color: rgb(6, 1, 1);
   }
+  .btn
+  {      
+      position: absolute;
+      width: 200px;
+      height: 50px;
+      left: 40px;
+  
+      overflow: hidden;
+      border: 2px solid #1C7730;  
+      font-size: 1rem;
+      text-align: center;
+      color: #1C7730;
+      background: none;
+      cursor: pointer;
+      margin: 15px 30px;
+      outline: none;
+      position: relative;
+      transition: all 0.3s;
+      border-radius: 4rem;
+      font-weight:700;
+  }
+  .btn:after{
+      content: '';
+      position: absolute;
+      z-index: -1;
+      transition: all 0.3s;
+     box-sizing: border-box;
+  }
+  .btn-02:after {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: #1C7730;
+  }
+  
+  .btn-02:hover,
+  .btn-02:active {
+    color: #ffffff;
+  }
+  
+  .btn-02:hover:after,
+  .btn-02:active:after {
+    height: 100%;
+  }
 .butt{
     position: absolute;
 width: 200px;
 height: 60px;
-top: 438px;
+top: 305px;
 
 }
 .butt button{
@@ -105,16 +139,16 @@ top: 438px;
 }
 .rect3 {
     position: absolute;
-    width: 470px;
-    height: 430px;
-    top: 547px;
-    padding: 20px;
+    width: 450px;
+    height: 450px;
+    top: 395px;
+    padding: 10px;
     background: #C2ECAE;
     border-radius: 20px;
 }
 .rect2 {
     position: absolute;
-    width: 470px;
+    width: 350px;
     height: 205px;
     padding: 20px;
     background: #C2ECAE;
@@ -128,31 +162,33 @@ top: 438px;
     background-color: #1C7730;
     
 }
-@media screen and (min-width: 300px){
+@media screen and (max-width: 600px){
 
     .header{
               position: relative;
               width: 100%;
               height: 140px;
           }
-    .title{
-            float: relative;
-            font-size: 32px;
-        }
-    .logout{
-            position: relative;
-            font-size: 20px;
-            cursor: pointer;
+          .title {
+            float: left;
+            color: white;
+            font-size: 30px;
+          }
+          .logout button{
             float: right;
-            padding-top: 20px;
-            padding-right: 15px;
-        }
+            background-color: transparent;
+            width: 90px;
+            height: 50px;
+            border: 5px solid transparent;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+          }
     
     .rectangle{
         position: relative;
-        width: 250px;
+        width: 200px;
         height: 50px;
-        padding: 20px;
+        padding: 5px;
     }
     .rectangle h3{
         font-size: 95%;
@@ -162,10 +198,11 @@ top: 438px;
     }
     .rect2 {
         position: relative;
-        width: 300px;
+        left:10px;
+        width: 95%;
         height: 200px;
         padding: 20px;
-        top: 20px;
+        top: 550px;
         background:  #C2ECAE;
         border-radius: 20px;
     }
@@ -174,10 +211,10 @@ top: 438px;
     }
     .rect {
         position: relative;
-        width: 420px;
-        height: 305px;
+        width: 95%;
+        height: 210px;
         top: 10px;
-        padding: 20px;
+        padding: 10px;
         background: #C2ECAE;
         border-radius: 20px;
     }
@@ -185,14 +222,15 @@ top: 438px;
         position: relative;
         width: 200px;
         height: 60px;
-        top: 30px;
+        top: 560px;
+        left:150px;
     
     }
     .rect3 {
         position: relative;
-        width: 470px;
-        height: 430px;
-        top: 50px;
+        width: 98%;
+        height: 450px;
+        top: 580px;
         padding: 20px;
         background: #C2ECAE;
         border-radius: 20px;
