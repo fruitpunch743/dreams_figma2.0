@@ -1,3 +1,16 @@
+<?php
+include_once("connection.php");
+  session_start();
+  if(isset($_SESSION['email']) && isset($_SESSION['name'])){
+    $name=$_SESSION['name'];
+  }
+  else{
+    header("Location: ../login/index.php");
+  }
+  $sql = "select * from accolades where ac_type = 'Activity' and mentee_id=".$_SESSION['user_id'].";";
+  $result = $con->query($sql);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,27 +30,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>certificates</title>
-    <link rel="stylesheet" href="certificates.css" />
+    <title>activity page</title>
+    <link rel="stylesheet" href="activity.css" />
 
   </head>
   <body>
       <div class="header pd-0">
         <img src="Dreams B.png" width="130px" height="130px" />
         <h1 class="title ps-3 pt-4">DREAMS</h1>
-        <h2 class="logout">Logout</h2>
+        <h2 class="logout"><button type="button" onclick = "location.href ='accolades.html'">Back</button></h2>
     </div>
-    <h2 class="pagetitle">Your Certificates</h2>
+   
+    <h2 class="pagetitle">ACTIVITY</h2>
     <div style="margin-top:50px" class ="certfics">
-      <p id = p1>1.Importance of communication<a href="sample2.jpg" download> download certificate</a></p>
-      <p id = p2>2.Leadership<a href="sample3.jpg" download> download certificate</a></p>
-      <p id = p3>3.How to live a happy life<a href="sample3.jpg"> download certificate</a></p>
+    <?php
+    if ($result->num_rows > 0){
+      while($row = mysqli_fetch_assoc($result)){
+        echo "<p>".$row['description']."<a href='../mentor_accolades/".$row['file_name']."' download> download certificate</a></p>";
+      }
+    }
+    else{
+      echo "<p>No results</p>";
+    }
+    ?>
     </div>
-    <img class = "bottom" src="appreciation2.jpg">
-    <img class = "bottom" src="appreciation2.jpg">
-    <img class = "bottom" src="appreciation2.jpg">
-    <img class = "bottom" src="appreciation2.jpg">
-    <img class = "bottom" src="appreciation2.jpg">
     
      
   </body>

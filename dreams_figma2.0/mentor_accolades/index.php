@@ -3,7 +3,7 @@ include "./config.php";
 
     if(isset($_POST['submit']))
     {
-        $name = $_POST['names'];
+        $id = $_POST['names'];
         $type = $_POST['type'];
         $description = $_POST['description'];
 
@@ -25,7 +25,7 @@ include "./config.php";
  
  if(move_uploaded_file($file_loc,$folder.$final_file))
  {
-  $sql="INSERT INTO accolades(name, description, ac_type, file_name,type,size) VALUES('$name','$description', '$type', '$final_file','','')";
+  $sql="INSERT INTO accolades(description, ac_type, file_name,type,size,mentee_id) VALUES('$description', '$type', '$final_file','','','$id')";
   mysqli_query($conn,$sql);
   echo "File sucessfully upload";
   header("Location: ./main.php");
