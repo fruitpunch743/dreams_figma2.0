@@ -13,7 +13,7 @@
   .title {
     float: left;
     color: white;
-    font-size: 64px;
+    font-size: 44px;
   }
   img {
     float: left;
@@ -22,6 +22,7 @@
     float: right;
     background-color: transparent;
     border: 5px solid transparent;
+    font-size: 30px;
     padding-top: 50px;
     padding-right: 50px;
     color: rgb(255, 255, 255);
@@ -59,7 +60,7 @@
     width: 240px;
     height: 267px;
     left: 39px;
-    top: 300px;
+    top: 200px;
     cursor: pointer;
     background: #C2ECAE;
     border-radius: 20px;

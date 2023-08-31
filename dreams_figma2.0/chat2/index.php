@@ -60,10 +60,10 @@ $user_id = $_SESSION['user_id'];
       $count = mysqli_num_rows($result);  
       
       if($count == 1){  ?>
-        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentor_home/index.php';">Back</button></h2>
+        <h2 class="logout"><button type="button" onclick = "location.href ='../mentor_home/index.php';">Back</button></h2>
         <?php
       }else{?>
-        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentee_home/index.php';">Back</button></h2>
+        <h2 class="logout"><button type="button" onclick = "location.href ='../mentee_home/index.php';">Back</button></h2>
         <?php
       }
       ?>

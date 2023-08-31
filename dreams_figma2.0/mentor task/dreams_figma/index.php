@@ -13,7 +13,7 @@
         $pos = $row["timestamp"];
     }
     else{
-        header("Location: http://localhost/dreams_figma2.0/dreams_figma2.0/login/index.php");
+        header("Location: ../../login/index.php");
     }
 
 ?>

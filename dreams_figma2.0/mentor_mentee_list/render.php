@@ -5,8 +5,9 @@
 
 if ($result->num_rows > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
-        echo '<a class="card" href="../mentee_profile/index.php?user='.$row["mentee_id"].'">
+        echo '
         <div class="card-body">
+        <a class="card" href="../mentee_profile/index.php?user='.$row["mentee_id"].'" style = "text-decoration:none;">
           <img
             class="dp"
             src="graduated_3135810.png"
@@ -15,8 +16,9 @@ if ($result->num_rows > 0) {
           <h3>'.$row["mentee_name"].'</h3>
           <p>Desire Group</p>
           <p>Christ School Chapter</p>
+          </a>
         </div>
-      </a>';           
+      ';           
     }
   
 }

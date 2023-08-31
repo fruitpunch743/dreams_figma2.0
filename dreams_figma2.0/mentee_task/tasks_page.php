@@ -26,7 +26,7 @@
     <div class="header pd-0">
         <img src="Dreams B.png" width="130px" height="130px">
         <h1 class="title ps-3 pt-4">DREAMS</h1>
-        <h2 class="logout"><button type="button" onclick = "location.href ='http://localhost/dreams_figma2.0/dreams_figma2.0/mentee_home/index.php';">Back</button></h2>
+        <h2 class="logout"><button type="button" onclick = "location.href ='../mentee_home/index.php';">Back</button></h2>
     </div><br><br>
     <div class="tabContainer">    
       <div class="button_container">
