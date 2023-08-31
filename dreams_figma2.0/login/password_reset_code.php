@@ -35,7 +35,7 @@ function send_password_reset($get_name,$get_email,$token){
     <h2>Hello $get_name,</h2>
     <h5>We have recieved a password reset request from your account.</h5>
     <br/><br/>
-    <a href='http://localhost/dreams_figma/login/password_change.php?token=$token&email=$get_email'>Click me</a>
+    <a href='password_change.php?token=$token&email=$get_email'>Click me</a>
     ";
 
     $mail->Body = $email_template;

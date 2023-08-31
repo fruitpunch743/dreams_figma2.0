@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 28, 2023 at 08:19 PM
+-- Generation Time: Aug 31, 2023 at 12:45 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -28,25 +28,26 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `accolades` (
-  `name` varchar(50) NOT NULL,
   `description` varchar(255) NOT NULL,
   `ac_type` varchar(50) DEFAULT NULL,
   `file_name` varchar(255) NOT NULL,
   `type` varchar(255) NOT NULL,
-  `size` varchar(255) NOT NULL
+  `size` varchar(255) NOT NULL,
+  `mentee_id` int(50) NOT NULL DEFAULT 2062002
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `accolades`
 --
 
-INSERT INTO `accolades` (`name`, `description`, `ac_type`, `file_name`, `type`, `size`) VALUES
-('3', '1q2w', 'Activity', '7080-index.css', '', ''),
-('Chatheriyan', '123', 'Activity', '38789-dreams-b.png', '', ''),
-('dhana', 'Accolade Description', 'Certificate', '13920-config.php', '', ''),
-('Ferdeno', 'Accolade Description', 'Acknowledgement', '91859-config.php', '', ''),
-('Ferrari', 'Done', 'Acknowledgement', '35951-screenshot-2023-04-12-at-12.02.26-pm.png', '', ''),
-('Karthick', 'asfjb,bfdawegare', 'Certificate', '36010-screenshot-2023-03-25-at-9.25.46-am.png', '', '');
+INSERT INTO `accolades` (`description`, `ac_type`, `file_name`, `type`, `size`, `mentee_id`) VALUES
+('1q2w', 'Activity', '7080-index.css', '', '', 2062002),
+('Stay gold', 'Activity', '71475-signature.jpeg', '', '', 2062002),
+('123', 'Activity', '38789-dreams-b.png', '', '', 2062002),
+('Accolade Description', 'Certificate', '13920-config.php', '', '', 2062002),
+('Accolade Description', 'Acknowledgement', '91859-config.php', '', '', 2062002),
+('Done', 'Acknowledgement', '35951-screenshot-2023-04-12-at-12.02.26-pm.png', '', '', 2062002),
+('asfjb,bfdawegare', 'Certificate', '36010-screenshot-2023-03-25-at-9.25.46-am.png', '', '', 2062002);
 
 -- --------------------------------------------------------
 
@@ -648,12 +649,6 @@ INSERT INTO `videoprogress` (`mentee`, `year`, `topic1`, `topic2`, `topic3`, `to
 --
 -- Indexes for dumped tables
 --
-
---
--- Indexes for table `accolades`
---
-ALTER TABLE `accolades`
-  ADD PRIMARY KEY (`name`);
 
 --
 -- Indexes for table `announcement`
