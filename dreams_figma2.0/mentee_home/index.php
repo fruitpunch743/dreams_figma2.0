@@ -76,7 +76,7 @@
         </a>
       </div>
       <div class="row py-3">
-        <a href="../mentee_accolades/accolades.html" class="items">
+        <a href="../mentee_accolades/accolades.php" class="items">
           <img class="images" src="icons/certificate.png" alt="" />
           <h2 class="it-text">Accolades</h2>
         </a>

@@ -1,3 +1,11 @@
+<?php
+  if(isset($_SESSION['email']) && isset($_SESSION['name'])){
+    $name=$_SESSION['name'];
+  }
+  else{
+    header("Location: ../login/index.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
