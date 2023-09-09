@@ -1,4 +1,5 @@
 <?php
+session_start();
   if(isset($_SESSION['email']) && isset($_SESSION['name'])){
     $name=$_SESSION['name'];
   }
@@ -38,21 +39,21 @@
     <div class="body">
       <div>
         <div class="desc">Activity</div>
-        <a target="_blank" href="activity.php">
+        <a href="activity.php">
           <img class="bodyimage" src="activity.gif" alt="activity" />
         </a>
       </div>
 
       <div>
         <div class="desc">Certificate</div>
-        <a target="_blank" href="certificates.php">
+        <a href="certificates.php">
           <img class="bodyimage" src="certificates.png" alt="activity" />
         </a>
       </div>
 
       <div>
         <div class="desc">Appreciation</div>
-        <a target="_blank" href="appreciation.php">
+        <a href="appreciation.php">
           <img class="bodyimage" src="appreciation.jpg" alt="activity" />
         </a>
       </div>
