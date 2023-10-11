@@ -37,15 +37,15 @@ if(!isset($_SESSION['user_id'])){
         <div class="item2">
             <label class="label" for="list">Accolade type</label>
             <div class="list">
-                <div class="form-check form-check-inline">
+                <div class="form-check ">
                     <input class="form-check-input" type="radio" name="type" id="inlineRadio1" value="Activity">
                     <label class="form-check-label" for="inlineRadio1">Activity</label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div class="form-check ">
                     <input class="form-check-input" type="radio" name="type" id="inlineRadio2" value="Certificate">
                     <label class="form-check-label" for="inlineRadio2">Certificate</label>
                   </div>
-                  <div class="form-check form-check-inline">
+                  <div class="form-check ">
                     <input class="form-check-input" type="radio" name="type" id="inlineRadio2" value="Acknowledgement">
                     <label class="form-check-label" for="inlineRadio2">Acknowledgement</label>
                   </div>
