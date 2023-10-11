@@ -59,7 +59,7 @@
             <h2>Personal Development (16 Lessons)</h2>
             <h3>Personal development is a journey, not a destination.</h3>                
     </a><br><br>
-    <a class="item1"  href="../mentee_video/._menteevideopage.html">
+    <a class="item1"  href="../mentee_video/menteevideopage2.html">
             <svg width="128" height="144" viewBox="0 0 128 144" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_404_79)">
                 <rect width="128" height="144" rx="4" fill="url(#paint0_linear_404_79)"/>
@@ -85,7 +85,7 @@
             <h2>Interpersonal Development (14 Lessons)</h2>
             <h3>Building effective social relationships and relating well to others requires individuals to be empathetic.</h3>
     </a><br><br>
-    <a class="item1"  href="../mentee_video/menteevideopage.php">
+    <a class="item1"  href="../mentee_video/menteevideopage3.html">
             <svg width="128" height="144" viewBox="0 0 128 144" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_404_79)">
                 <rect width="128" height="144" rx="4" fill="url(#paint0_linear_404_79)"/>
                 <g clip-path="url(#clip1_404_79)">

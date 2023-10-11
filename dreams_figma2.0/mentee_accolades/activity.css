@@ -46,7 +46,7 @@ img{
 }
 
 h2{
-    padding: 50px;
+    padding: 30px;
 }
     
 .certfics p{
@@ -94,8 +94,8 @@ h2{
           .logout button{
             float: right;
             background-color: transparent;
-            width: 90px;
-            height: 50px;
+            width: 80px;
+            height: 40px;
             border: 5px solid transparent;
             
             color: rgb(255, 255, 255);
@@ -105,4 +105,36 @@ h2{
         margin-top: 250px;     
         
     }
+    .certfics p{
+   
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    h2{
+        padding: 20px;
+    }
+        
+    .certfics p{
+        width:100%;
+        color:royalblue;
+        align-items: center;
+        text-align:left;
+        font-size: 12px;
+        height: 40px;
+        background-color: rgb(189, 225, 178);
+        position: relative;
+        animation-name: example;
+        animation-timing-function: ease;
+      }
+      
+      @keyframes example {
+        from{left:300px;}
+        to{left:0px;}
+      }
+      #p1{animation-duration: 2s;}
+      #p2{animation-duration: 2.5s;}
+      #p3{animation-duration: 2.9s;}
+    
+      
 }

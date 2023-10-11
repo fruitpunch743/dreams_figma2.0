@@ -195,3 +195,19 @@ img{
 .item4 textarea:focus{
     outline: none;
 }
+@media screen and  (max-width: 768px){
+    .title {
+        float: left;
+        color: white;
+        font-size: 30px;
+      }
+      .logout button{
+        float: right;
+        background-color: transparent;
+        width: 90px;
+        height: 50px;
+        border: 5px solid transparent;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+      }
+    }
