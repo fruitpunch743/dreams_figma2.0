@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 31, 2023 at 12:45 PM
+-- Generation Time: Oct 11, 2023 at 06:22 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -176,7 +176,8 @@ INSERT INTO `chat_message` (`chat_message_id`, `to_user_id`, `from_user_id`, `ch
 (15, 2, 5, 'speed 1 TB memory 1GB', '2023-03-26 01:42:03', 0),
 (16, 2, 5, 'shourya is with me', '2023-03-27 01:42:54', 2),
 (17, 5, 2, 'good evening', '2023-03-27 04:50:28', 2),
-(18, 1, 2, 'hi helllo', '2023-04-12 10:18:15', 1);
+(18, 1, 2, 'hi helllo', '2023-04-12 10:18:15', 1),
+(19, 2062017, 1, 'Hello', '2023-09-08 14:04:59', 1);
 
 -- --------------------------------------------------------
 
@@ -326,81 +327,81 @@ INSERT INTO `mentee_video` (`id`, `topic_no`, `topic`, `video_title`, `youtube`,
 (7, 2, 'Attitudes & Emotions', 'Why do we have feelings?', 'https://www.youtube.com/watch?v=3fTRWpf-eH4', 'https://www.youtube.com/embed/3fTRWpf-eH4', 1, 1),
 (8, 2, 'Attitudes & Emotions', 'Positive Attitude', 'https://www.youtube.com/watch?v=vmLIJAc5kyg&t=2s', 'https://www.youtube.com/embed/vmLIJAc5kyg', 1, 0),
 (9, 2, 'Attitudes & Emotions', 'Positive Attitude for Helping others', 'https://www.youtube.com/watch?v=-JnSktK3dVE', 'https://www.youtube.com/embed/-JnSktK3dVE', 1, 0),
-(10, 3, 'Dreams & Purpose In Life', 'Little children Big Dreams', 'https://www.youtube.com/watch?v=GIHucfatYpM\",', '', 1, 0),
-(11, 3, 'Dreams & Purpose In Life', 'One step at a time', 'https://www.youtube.com/watch?v=8cCiqbSJ9fg', '', 1, 0),
-(12, 3, 'Dreams & Purpose In Life', 'Never Give up on your dream', 'https://www.youtube.com/watch?v=Sv4KKykRHjI', '', 1, 0),
-(13, 3, 'Dreams & Purpose In Life', 'Goal Setting', 'https://www.youtube.com/watch?v=XrsERz952qM', '', 1, 0),
-(14, 4, 'Values To Reach Your Goal', 'What is the value of your life?', 'https://www.youtube.com/watch?v=AwVfS7n3ghs', '', 1, 0),
-(15, 4, 'Values To Reach Your Goal', 'Personal values and Humanity', 'https://www.youtube.com/watch?v=SbkdxKaMBBc', '', 1, 0),
-(16, 4, 'Values To Reach Your Goal', 'Identity and Values', 'https://www.youtube.com/watch?v=j8H1b7Pm45Q', '', 1, 0),
-(17, 4, 'Values To Reach Your Goal', 'Find your Hidden Talent', 'https://www.youtube.com/watch?v=bCDCDMh02QA', '', 1, 0),
-(18, 5, 'Empower Yourself', 'Find Your Greatness', 'https://www.youtube.com/watch?v=WYP9AGtLvRg', '', 1, 0),
-(19, 5, 'Empower Yourself', 'Empower Yourself', 'https://www.youtube.com/watch?v=I68Y81ZpjNM', '', 1, 0),
-(20, 5, 'Empower Yourself', 'Believe in yourself', 'https://www.youtube.com/watch?v=AjZ0KbJcav0', '', 1, 0),
-(21, 5, 'Empower Yourself', 'Your hardest time often leads to the greatest moment of your life', 'https://www.youtube.com/watch?v=_u2qggffbYM', '', 1, 0),
-(22, 6, 'Leader Of Your Life', 'Leadership quality: A.P.J Abdul Kalam', 'https://www.youtube.com/watch?v=7E-cwdnsiow', '', 1, 0),
-(23, 6, 'Leader Of Your Life', 'Qualities to be a leader', 'https://www.youtube.com/watch?v=ZoI7ou_SpwA', '', 1, 0),
-(24, 6, 'Leader Of Your Life', 'The power of teamwork', 'https://www.youtube.com/watch?v=ZnjJpa1LBOY', '', 1, 0),
-(25, 6, 'Leader Of Your Life', 'Work Twice as hard as others', 'https://www.youtube.com/watch?v=GtaxU6DZvLs', '', 1, 0),
-(26, 7, 'Joy Of Giving & Receiving', 'Share, Care, Love & Joy', 'https://www.youtube.com/watch?v=HkuKHwetV6Q', '', 1, 0),
-(27, 7, 'Joy Of Giving & Receiving', 'The Gift of Giving', 'https://www.youtube.com/watch?v=mdSfg8qO8ts', '', 1, 0),
-(28, 7, 'Joy Of Giving & Receiving', 'Ripple', 'https://www.youtube.com/watch?v=ovj5dzMxzmc', '', 1, 0),
-(29, 7, 'Joy Of Giving & Receiving', 'Simple acts of kindness', 'https://www.youtube.com/watch?v=_Nl2sT0rTDc', '', 1, 0),
-(30, 8, 'Keep Going & Keep Trying – Perseverance', 'Giving up is the birthplace of regrets', 'https://www.youtube.com/watch?v=w71aDaGAtHs', '', 1, 0),
-(31, 8, 'Keep Going & Keep Trying – Perseverance', 'How to manage Failure A.P.J Abdul Kalam', 'https://www.youtube.com/watch?v=7E-cwdnsiow', '', 1, 0),
-(32, 8, 'Keep Going & Keep Trying – Perseverance', 'Finding Nemo', 'https://www.youtube.com/watch?v=iRQytOBTlN8', '', 1, 0),
-(33, 1, 'Leadership And Its Importance', 'Story of a good leader', 'https://www.youtube.com/watch?v=UwWJl_U7hP4&ab_channel=StichtingReckoning', '', 3, 0),
-(34, 1, 'Leadership And Its Importance', 'Leader of the Jungle', 'https://youtu.be/Imqb_gu9mlQ', '', 3, 0),
-(35, 1, 'Leadership And Its Importance', 'Establish yourself as a Leader', 'https://www.youtube.com/watch?v=R2qu_j6GAG8&list=RDCMUCir93b_ftqInEaDpsWYbo_g&start_radio=1&t=9s&ab_channel=PracticalPsychology', '', 3, 0),
-(36, 1, 'Leadership And Its Importance', 'Leadership and effective collaboration', 'https://youtu.be/ZnjJpa1LBOY', '', 3, 0),
-(37, 2, 'Decision Making', 'Making Decisions', 'https://www.youtube.com/watch?v=QlmEfeC1DO4&ab_channel=InnoventureNMSU', '', 3, 0),
-(38, 2, 'Decision Making', 'Decision Making Strategies', 'https://www.youtube.com/watch?v=pPIhAm_WGbQ&ab_channel=GCFLearnFree.org', '', 3, 0),
-(39, 2, 'Decision Making', 'Decision Making in an Organization Setting', 'https://www.youtube.com/watch?v=w9Cg3_5Bfuw&ab_channel=CaliforniaManagementReview', '', 3, 0),
-(40, 3, 'Time & Energy Management', 'Lesson on Time Management', 'https://www.youtube.com/watch?v=F5JI_6nsgaM&ab_channel=DonHoweSuccess', '', 3, 0),
-(41, 3, 'Time & Energy Management', 'Student Success', 'https://www.youtube.com/watch?v=rUO8Qvcs7cY&ab_channel=MichiganTechnologicalUniversity', '', 3, 0),
-(42, 3, 'Time & Energy Management', 'Effective Time Management', 'https://www.youtube.com/watch?v=RiI1NkaDXlQ', '', 3, 0),
-(43, 4, 'Perseverance & Commitment', 'Story of Maran', 'https://www.youtube.com/watch?v=PE_8_ku-Wbo&ab_channel=Bhumi', '', 3, 0),
-(44, 4, 'Perseverance & Commitment', 'Story on Commitment', 'https://youtu.be/szcsxADTQQg', '', 3, 0),
-(45, 4, 'Perseverance & Commitment', 'Beating the odds', 'https://www.youtube.com/watch?v=7hByu8MvIiU&ab_channel=ABCNews', '', 3, 0),
-(46, 5, 'Personal Value & Authentic Leadership', 'Values in Leadership', 'https://www.youtube.com/watch?v=QNam24cFpFU&ab_channel=GreggU', '', 3, 0),
-(47, 5, 'Personal Value & Authentic Leadership', 'Leadership Videos', 'https://www.youtube.com/watch?v=e-VjisHm4sw&ab_channel=ashwinpp', '', 3, 0),
-(48, 5, 'Personal Value & Authentic Leadership', 'Personal Values and Humanity', 'https://www.youtube.com/watch?v=SbkdxKaMBBc&t=152s&ab_channel=RichLife', '', 3, 0),
-(49, 6, 'Responsibility & Accountability', 'How to be Responsible and Accountable?', 'https://www.youtube.com/watch?v=rXgPNTgC0dQ&ab_channel=JeffMuir', '', 3, 0),
-(50, 6, 'Responsibility & Accountability', 'Authority, Responsibility, and Accountability', 'https://www.youtube.com/watch?v=qBZA2DM-8Q0&ab_channel=PadhakuLog', '', 3, 0),
-(51, 6, 'Responsibility & Accountability', 'We are responsible', 'https://www.youtube.com/watch?v=DG4DZ-GfDFk&ab_channel=RoadSideMoviez', '', 3, 0),
-(52, 7, 'Building Trust & Conflict Management', 'Conflict Resolution Techniques', 'https://www.youtube.com/watch?v=v4sby5j4dTY&ab_channel=BRAINYDOSE', '', 3, 0),
-(53, 7, 'Building Trust & Conflict Management', 'Helping kids resolve Conflict', 'https://www.youtube.com/watch?v=tw_nQ4x19Eo&ab_channel=SesameStreetInCommunities', '', 3, 0),
-(54, 7, 'Building Trust & Conflict Management', 'Conflict Management', 'https://youtu.be/eT7lt4ESSLo', '', 3, 0),
-(55, 7, 'Building Trust & Conflict Management', 'Guide to Maintaining Friendships', 'https://www.youtube.com/watch?v=o9ulSfCGMUs&ab_channel=watchwellcast', '', 3, 0),
-(56, 8, 'Professionalism & Mentoring/Lead Change', 'Professionalism', 'https://youtu.be/S703WyqaGn4', '', 3, 0),
-(57, 8, 'Professionalism & Mentoring/Lead Change', '6 Traits of a True Professional', 'https://youtu.be/2vFdQY1qSlM', '', 3, 0),
-(58, 8, 'Professionalism & Mentoring/Lead Change', 'Professionalism in Workplace', 'https://youtu.be/0o3INMBL58w', '', 3, 0),
-(59, 1, 'You & Your Family', 'What is family?', 'https://www.youtube.com/watch?v=DzlxG2B2neU', '', 2, 0),
-(60, 1, 'You & Your Family', 'Mother', 'https://www.youtube.com/watch?v=cQDgf2KAXZY', '', 2, 0),
-(61, 1, 'You & Your Family', 'Parent\'s Love', 'https://www.youtube.com/watch?v=Qj2qSxSlrxU', '', 2, 0),
-(62, 1, 'You & Your Family', 'Storytime', 'https://www.youtube.com/watch?v=52EK5Cujasc', '', 2, 0),
-(63, 2, 'Friends And Life Success', 'Real Friends', 'https://www.youtube.com/watch?v=RqX9Fm0y0qs', '', 2, 0),
-(64, 2, 'Friends And Life Success', 'When Life breaks you', 'https://www.youtube.com/watch?v=Un-gNbNwwsQ', '', 2, 0),
-(65, 2, 'Friends And Life Success', 'Good Friends', 'https://www.youtube.com/watch?v=774HJQ9AdRk', '', 2, 0),
-(66, 3, 'Teamwork', 'Rowing Teamwork', 'https://www.youtube.com/watch?v=kYjqtLCNqSA', '', 2, 0),
-(67, 3, 'Teamwork', 'What is Teamwork', 'https://www.youtube.com/watch?v=RuQjYzP9PMo', '', 2, 0),
-(68, 3, 'Teamwork', 'Leadership,Execution & Teamwork', 'https://www.youtube.com/watch?v=FGEVL19AaGA', '', 2, 0),
-(69, 4, 'You And Your Community', 'Build a sense of community', 'https://www.youtube.com/watch?v=rqMtpk754ns', '', 2, 0),
-(70, 4, 'You And Your Community', 'Get involved with a community', 'https://www.youtube.com/watch?v=MtOXxlUE2Zg', '', 2, 0),
-(71, 4, 'You And Your Community', 'How to start a community project', 'https://www.youtube.com/watch?v=n8b2A7ThU4Y', '', 2, 0),
-(72, 5, 'Communication And Success', 'Effective communication', 'https://www.youtube.com/watch?v=I6IAhXM-vps', '', 2, 0),
-(73, 5, 'Communication And Success', 'How to improve your communication', 'https://www.youtube.com/watch?v=VVHZBflZqzk', '', 2, 0),
-(74, 5, 'Communication And Success', 'Change communication Strategy', 'https://www.youtube.com/watch?v=ohK6n2TWcxE', '', 2, 0),
-(75, 6, 'Delivering Happiness', 'Happiness:short film', 'https://www.youtube.com/watch?v=HkuKHwetV6Q', '', 2, 0),
-(76, 6, 'Delivering Happiness', 'Happiness', 'https://youtu.be/e9dZQelULDk', '', 2, 0),
-(77, 6, 'Delivering Happiness', 'Sharing is caring', 'https://www.youtube.com/watch?v=sow8k-veHVo', '', 2, 0),
-(78, 7, 'Empower your surroundings', 'Message from Mr.Obama', 'https://www.youtube.com/watch?v=h5gNSHcoVmQ', '', 2, 0),
-(79, 7, 'Empower your surroundings', 'Brighten your life by helping others', 'https://www.youtube.com/watch?v=Qww_yQqBpqA', '', 2, 0),
-(80, 7, 'Empower your surroundings', '20 Random acts of Kindness', 'https://youtu.be/sngs8XYqdWg', '', 2, 0),
-(81, 8, 'Understand others and respond to their needs', 'Empathy', 'https://youtu.be/27sho6s2eK8', '', 2, 0),
-(82, 8, 'Understand others and respond to their needs', '13 signs that you are empathetic', 'https://www.youtube.com/watch?v=1E39jpNN9eQ', '', 2, 0),
-(83, 8, 'Understand others and respond to their needs', 'Understanding others\' perspective', 'https://www.youtube.com/watch?v=jX2OLUhf8ZM', '', 2, 0),
-(84, 8, 'Understand others and respond to their needs', 'Importance of empathy', 'https://www.youtube.com/watch?v=UzPMMSKfKZQ', '', 2, 0);
+(10, 3, 'Dreams & Purpose In Life', 'Little children Big Dreams', 'https://www.youtube.com/watch?v=GIHucfatYpM\",', 'https://www.youtube.com/embed/GIHucfatYpM', 1, 0),
+(11, 3, 'Dreams & Purpose In Life', 'One step at a time', 'https://www.youtube.com/watch?v=8cCiqbSJ9fg', 'https://www.youtube.com/embed/8cCiqbSJ9fg', 1, 0),
+(12, 3, 'Dreams & Purpose In Life', 'Never Give up on your dream', 'https://www.youtube.com/watch?v=Sv4KKykRHjI', 'https://www.youtube.com/embed/Sv4KKykRHjI', 1, 0),
+(13, 3, 'Dreams & Purpose In Life', 'Goal Setting', 'https://www.youtube.com/watch?v=XrsERz952qM', 'https://www.youtube.com/embed/XrsERz952qM', 1, 0),
+(14, 4, 'Values To Reach Your Goal', 'What is the value of your life?', 'https://www.youtube.com/watch?v=AwVfS7n3ghs', 'https://www.youtube.com/embed/AwVfS7n3ghs', 1, 0),
+(15, 4, 'Values To Reach Your Goal', 'Personal values and Humanity', 'https://www.youtube.com/watch?v=SbkdxKaMBBc', 'https://www.youtube.com/embed/SbkdxKaMBBc', 1, 0),
+(16, 4, 'Values To Reach Your Goal', 'Identity and Values', 'https://www.youtube.com/watch?v=j8H1b7Pm45Q', 'https://www.youtube.com/embed/j8H1b7Pm45Q', 1, 0),
+(17, 4, 'Values To Reach Your Goal', 'Find your Hidden Talent', 'https://www.youtube.com/watch?v=bCDCDMh02QA', 'https://www.youtube.com/embed/bCDCDMh02QA', 1, 0),
+(18, 5, 'Empower Yourself', 'Find Your Greatness', 'https://www.youtube.com/watch?v=WYP9AGtLvRg', 'https://www.youtube.com/embed/WYP9AGtLvRg', 1, 0),
+(19, 5, 'Empower Yourself', 'Empower Yourself', 'https://www.youtube.com/watch?v=I68Y81ZpjNM', 'https://www.youtube.com/embed/I68Y81ZpjNM', 1, 0),
+(20, 5, 'Empower Yourself', 'Believe in yourself', 'https://www.youtube.com/watch?v=AjZ0KbJcav0', 'https://www.youtube.com/embed/AjZ0KbJcav0', 1, 0),
+(21, 5, 'Empower Yourself', 'Your hardest time often leads to the greatest moment of your life', 'https://www.youtube.com/watch?v=_u2qggffbYM', 'https://www.youtube.com/embed/_u2qggffbYM', 1, 0),
+(22, 6, 'Leader Of Your Life', 'Leadership quality: A.P.J Abdul Kalam', 'https://www.youtube.com/watch?v=7E-cwdnsiow', 'https://www.youtube.com/embed/7E-cwdnsiow', 1, 0),
+(23, 6, 'Leader Of Your Life', 'Qualities to be a leader', 'https://www.youtube.com/watch?v=ZoI7ou_SpwA', 'https://www.youtube.com/embed/ZoI7ou_SpwA', 1, 0),
+(24, 6, 'Leader Of Your Life', 'The power of teamwork', 'https://www.youtube.com/watch?v=ZnjJpa1LBOY', 'https://www.youtube.com/embed/ZnjJpa1LBOY', 1, 0),
+(25, 6, 'Leader Of Your Life', 'Work Twice as hard as others', 'https://www.youtube.com/watch?v=GtaxU6DZvLs', 'https://www.youtube.com/embed/GtaxU6DZvLs', 1, 0),
+(26, 7, 'Joy Of Giving & Receiving', 'Share, Care, Love & Joy', 'https://www.youtube.com/watch?v=HkuKHwetV6Q', 'https://www.youtube.com/embed/HkuKHwetV6Q', 1, 0),
+(27, 7, 'Joy Of Giving & Receiving', 'The Gift of Giving', 'https://www.youtube.com/watch?v=mdSfg8qO8ts', 'https://www.youtube.com/embed/mdSfg8qO8ts', 1, 0),
+(28, 7, 'Joy Of Giving & Receiving', 'Ripple', 'https://www.youtube.com/watch?v=ovj5dzMxzmc', 'https://www.youtube.com/embed/ovj5dzMxzmc', 1, 0),
+(29, 7, 'Joy Of Giving & Receiving', 'Simple acts of kindness', 'https://www.youtube.com/watch?v=_Nl2sT0rTDc', 'https://www.youtube.com/embed/_Nl2sT0rTDc', 1, 0),
+(30, 8, 'Keep Going & Keep Trying – Perseverance', 'Giving up is the birthplace of regrets', 'https://www.youtube.com/watch?v=w71aDaGAtHs', 'https://www.youtube.com/embed/w71aDaGAtHs', 1, 0),
+(31, 8, 'Keep Going & Keep Trying – Perseverance', 'How to manage Failure A.P.J Abdul Kalam', 'https://www.youtube.com/watch?v=7E-cwdnsiow', 'https://www.youtube.com/embed/7E-cwdnsiow', 1, 0),
+(32, 8, 'Keep Going & Keep Trying – Perseverance', 'Finding Nemo', 'https://www.youtube.com/watch?v=iRQytOBTlN8', 'https://www.youtube.com/embed/iRQytOBTlN8', 1, 0),
+(33, 1, 'Leadership And Its Importance', 'Story of a good leader', 'https://www.youtube.com/watch?v=UwWJl_U7hP4&ab_channel=StichtingReckoning', 'https://www.youtube.com/embed/UwWJl_U7hP4', 3, 0),
+(34, 1, 'Leadership And Its Importance', 'Leader of the Jungle', 'https://youtu.be/Imqb_gu9mlQ', 'https://www.youtube.com/embed/Imqb_gu9mlQ', 3, 0),
+(35, 1, 'Leadership And Its Importance', 'Establish yourself as a Leader', 'https://www.youtube.com/watch?v=R2qu_j6GAG8&list=RDCMUCir93b_ftqInEaDpsWYbo_g&start_radio=1&t=9s&ab_channel=PracticalPsychology', 'https://www.youtube.com/embed/R2qu_j6GAG8', 3, 0),
+(36, 1, 'Leadership And Its Importance', 'Leadership and effective collaboration', 'https://youtu.be/ZnjJpa1LBOY', 'https://www.youtube.com/embed/ZnjJpa1LBOY', 3, 0),
+(37, 2, 'Decision Making', 'Making Decisions', 'https://www.youtube.com/watch?v=QlmEfeC1DO4&ab_channel=InnoventureNMSU', 'https://www.youtube.com/embed/QlmEfeC1DO4', 3, 0),
+(38, 2, 'Decision Making', 'Decision Making Strategies', 'https://www.youtube.com/watch?v=pPIhAm_WGbQ&ab_channel=GCFLearnFree.org', 'https://www.youtube.com/embed/pPIhAm_WGbQ', 3, 0),
+(39, 2, 'Decision Making', 'Decision Making in an Organization Setting', 'https://www.youtube.com/watch?v=w9Cg3_5Bfuw&ab_channel=CaliforniaManagementReview', 'https://www.youtube.com/embed/w9Cg3_5Bfuw', 3, 0),
+(40, 3, 'Time & Energy Management', 'Lesson on Time Management', 'https://www.youtube.com/watch?v=F5JI_6nsgaM&ab_channel=DonHoweSuccess', 'https://www.youtube.com/embed/F5JI_6nsgaM', 3, 0),
+(41, 3, 'Time & Energy Management', 'Student Success', 'https://www.youtube.com/watch?v=rUO8Qvcs7cY&ab_channel=MichiganTechnologicalUniversity', 'https://www.youtube.com/embed/rUO8Qvcs7cY', 3, 0),
+(42, 3, 'Time & Energy Management', 'Effective Time Management', 'https://www.youtube.com/watch?v=RiI1NkaDXlQ', 'https://www.youtube.com/embed/RiI1NkaDXlQ', 3, 0),
+(43, 4, 'Perseverance & Commitment', 'Story of Maran', 'https://www.youtube.com/watch?v=PE_8_ku-Wbo&ab_channel=Bhumi', 'https://www.youtube.com/embed/PE_8_ku-Wbo', 3, 0),
+(44, 4, 'Perseverance & Commitment', 'Story on Commitment', 'https://youtu.be/szcsxADTQQg', 'https://www.youtube.com/embed/szcsxADTQQg', 3, 0),
+(45, 4, 'Perseverance & Commitment', 'Beating the odds', 'https://www.youtube.com/watch?v=7hByu8MvIiU&ab_channel=ABCNews', 'https://www.youtube.com/embed/7hByu8MvIiU', 3, 0),
+(46, 5, 'Personal Value & Authentic Leadership', 'Values in Leadership', 'https://www.youtube.com/watch?v=QNam24cFpFU&ab_channel=GreggU', 'https://www.youtube.com/embed/QNam24cFpFU', 3, 0),
+(47, 5, 'Personal Value & Authentic Leadership', 'Leadership Videos', 'https://www.youtube.com/watch?v=e-VjisHm4sw&ab_channel=ashwinpp', 'https://www.youtube.com/embed/e-VjisHm4sw', 3, 0),
+(48, 5, 'Personal Value & Authentic Leadership', 'Personal Values and Humanity', 'https://www.youtube.com/watch?v=SbkdxKaMBBc&t=152s&ab_channel=RichLife', 'https://www.youtube.com/embed/SbkdxKaMBBc', 3, 0),
+(49, 6, 'Responsibility & Accountability', 'How to be Responsible and Accountable?', 'https://www.youtube.com/watch?v=rXgPNTgC0dQ&ab_channel=JeffMuir', 'https://www.youtube.com/embed/rXgPNTgC0dQ', 3, 0),
+(50, 6, 'Responsibility & Accountability', 'Authority, Responsibility, and Accountability', 'https://www.youtube.com/watch?v=qBZA2DM-8Q0&ab_channel=PadhakuLog', 'https://www.youtube.com/embed/rXgPNTgC0dQ', 3, 0),
+(51, 6, 'Responsibility & Accountability', 'We are responsible', 'https://www.youtube.com/watch?v=DG4DZ-GfDFk&ab_channel=RoadSideMoviez', 'https://www.youtube.com/embed/DG4DZ-GfDFk', 3, 0),
+(52, 7, 'Building Trust & Conflict Management', 'Conflict Resolution Techniques', 'https://www.youtube.com/watch?v=v4sby5j4dTY&ab_channel=BRAINYDOSE', 'https://www.youtube.com/embed/v4sby5j4dTY', 3, 0),
+(53, 7, 'Building Trust & Conflict Management', 'Helping kids resolve Conflict', 'https://www.youtube.com/watch?v=tw_nQ4x19Eo&ab_channel=SesameStreetInCommunities', 'https://www.youtube.com/embed/tw_nQ4x19Eo', 3, 0),
+(54, 7, 'Building Trust & Conflict Management', 'Conflict Management', 'https://youtu.be/eT7lt4ESSLo', 'https://www.youtube.com/embed/eT7lt4ESSLo', 3, 0),
+(55, 7, 'Building Trust & Conflict Management', 'Guide to Maintaining Friendships', 'https://www.youtube.com/watch?v=o9ulSfCGMUs&ab_channel=watchwellcast', 'https://www.youtube.com/embed/o9ulSfCGMUs', 3, 0),
+(56, 8, 'Professionalism & Mentoring/Lead Change', 'Professionalism', 'https://youtu.be/S703WyqaGn4', 'https://www.youtube.com/embed/S703WyqaGn4', 3, 0),
+(57, 8, 'Professionalism & Mentoring/Lead Change', '6 Traits of a True Professional', 'https://youtu.be/2vFdQY1qSlM', 'https://www.youtube.com/embed/2vFdQY1qSlM', 3, 0),
+(58, 8, 'Professionalism & Mentoring/Lead Change', 'Professionalism in Workplace', 'https://youtu.be/0o3INMBL58w', 'https://www.youtube.com/embed/0o3INMBL58w', 3, 0),
+(59, 1, 'You & Your Family', 'What is family?', 'https://www.youtube.com/watch?v=DzlxG2B2neU', 'https://www.youtube.com/embed/DzlxG2B2neU', 2, 0),
+(60, 1, 'You & Your Family', 'Mother', 'https://www.youtube.com/watch?v=cQDgf2KAXZY', 'https://www.youtube.com/embed/cQDgf2KAXZY', 2, 0),
+(61, 1, 'You & Your Family', 'Parent\'s Love', 'https://www.youtube.com/watch?v=Qj2qSxSlrxU', 'https://www.youtube.com/embed/Qj2qSxSlrxU', 2, 0),
+(62, 1, 'You & Your Family', 'Storytime', 'https://www.youtube.com/watch?v=52EK5Cujasc', 'https://www.youtube.com/embed/52EK5Cujasc', 2, 0),
+(63, 2, 'Friends And Life Success', 'Real Friends', 'https://www.youtube.com/watch?v=RqX9Fm0y0qs', 'https://www.youtube.com/embed/RqX9Fm0y0qs', 2, 0),
+(64, 2, 'Friends And Life Success', 'When Life breaks you', 'https://www.youtube.com/watch?v=Un-gNbNwwsQ', 'https://www.youtube.com/embed/Un-gNbNwwsQ', 2, 0),
+(65, 2, 'Friends And Life Success', 'Good Friends', 'https://www.youtube.com/watch?v=774HJQ9AdRk', 'https://www.youtube.com/embed/774HJQ9AdRk', 2, 0),
+(66, 3, 'Teamwork', 'Rowing Teamwork', 'https://www.youtube.com/watch?v=kYjqtLCNqSA', 'https://www.youtube.com/embed/kYjqtLCNqSA', 2, 0),
+(67, 3, 'Teamwork', 'What is Teamwork', 'https://www.youtube.com/watch?v=RuQjYzP9PMo', 'https://www.youtube.com/embed/RuQjYzP9PMo', 2, 0),
+(68, 3, 'Teamwork', 'Leadership,Execution & Teamwork', 'https://www.youtube.com/watch?v=FGEVL19AaGA', 'https://www.youtube.com/embed/FGEVL19AaGA', 2, 0),
+(69, 4, 'You And Your Community', 'Build a sense of community', 'https://www.youtube.com/watch?v=rqMtpk754ns', 'https://www.youtube.com/embed/rqMtpk754ns', 2, 0),
+(70, 4, 'You And Your Community', 'Get involved with a community', 'https://www.youtube.com/watch?v=MtOXxlUE2Zg', 'https://www.youtube.com/embed/MtOXxlUE2Zg', 2, 0),
+(71, 4, 'You And Your Community', 'How to start a community project', 'https://www.youtube.com/watch?v=n8b2A7ThU4Y', 'https://www.youtube.com/embed/n8b2A7ThU4Y', 2, 0),
+(72, 5, 'Communication And Success', 'Effective communication', 'https://www.youtube.com/watch?v=I6IAhXM-vps', 'https://www.youtube.com/embed/I6IAhXM-vps', 2, 0),
+(73, 5, 'Communication And Success', 'How to improve your communication', 'https://www.youtube.com/watch?v=VVHZBflZqzk', 'https://www.youtube.com/embed/VVHZBflZqzk', 2, 0),
+(74, 5, 'Communication And Success', 'Change communication Strategy', 'https://www.youtube.com/watch?v=ohK6n2TWcxE', 'https://www.youtube.com/embed/ohK6n2TWcxE', 2, 0),
+(75, 6, 'Delivering Happiness', 'Happiness:short film', 'https://www.youtube.com/watch?v=HkuKHwetV6Q', 'https://www.youtube.com/embed/HkuKHwetV6Q', 2, 0),
+(76, 6, 'Delivering Happiness', 'Happiness', 'https://youtu.be/e9dZQelULDk', 'https://www.youtube.com/embed/e9dZQelULDk', 2, 0),
+(77, 6, 'Delivering Happiness', 'Sharing is caring', 'https://www.youtube.com/watch?v=sow8k-veHVo', 'https://www.youtube.com/embed/sow8k-veHVo', 2, 0),
+(78, 7, 'Empower your surroundings', 'Message from Mr.Obama', 'https://www.youtube.com/watch?v=h5gNSHcoVmQ', 'https://www.youtube.com/embed/h5gNSHcoVmQ', 2, 0),
+(79, 7, 'Empower your surroundings', 'Brighten your life by helping others', 'https://www.youtube.com/watch?v=Qww_yQqBpqA', 'https://www.youtube.com/embed/Qww_yQqBpqA', 2, 0),
+(80, 7, 'Empower your surroundings', '20 Random acts of Kindness', 'https://youtu.be/sngs8XYqdWg', 'https://www.youtube.com/embed/sngs8XYqdWg', 2, 0),
+(81, 8, 'Understand others and respond to their needs', 'Empathy', 'https://youtu.be/27sho6s2eK8', 'https://www.youtube.com/embed/27sho6s2eK8', 2, 0),
+(82, 8, 'Understand others and respond to their needs', '13 signs that you are empathetic', 'https://www.youtube.com/watch?v=1E39jpNN9eQ', 'https://www.youtube.com/embed/1E39jpNN9eQ', 2, 0),
+(83, 8, 'Understand others and respond to their needs', 'Understanding others\' perspective', 'https://www.youtube.com/watch?v=jX2OLUhf8ZM', 'https://www.youtube.com/embed/jX2OLUhf8ZM', 2, 0),
+(84, 8, 'Understand others and respond to their needs', 'Importance of empathy', 'https://www.youtube.com/watch?v=UzPMMSKfKZQ', 'https://www.youtube.com/embed/UzPMMSKfKZQ', 2, 0);
 
 -- --------------------------------------------------------
 
@@ -644,7 +645,7 @@ CREATE TABLE `videoprogress` (
 
 INSERT INTO `videoprogress` (`mentee`, `year`, `topic1`, `topic2`, `topic3`, `topic4`, `topic5`, `topic6`, `topic7`, `topic8`, `complete_percent`) VALUES
 ('chathu@cu.in', 2, 1, 0, 0, 0, 0, 0, 0, 0, 13),
-('abinav@cu.in', 2, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+('abinav@cu.in', 2, 1, 1, 1, 0, 0, 0, 0, 0, 38);
 
 --
 -- Indexes for dumped tables
@@ -702,6 +703,12 @@ ALTER TABLE `mentee_table`
   ADD KEY `FK_Key` (`assigned_mentor_id`);
 
 --
+-- Indexes for table `mentee_video`
+--
+ALTER TABLE `mentee_video`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `mentor_table`
 --
 ALTER TABLE `mentor_table`
@@ -757,7 +764,7 @@ ALTER TABLE `chat`
 -- AUTO_INCREMENT for table `chat_message`
 --
 ALTER TABLE `chat_message`
-  MODIFY `chat_message_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `chat_message_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `login`
